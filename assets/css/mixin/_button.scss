@@ -1,0 +1,182 @@
+.btn {
+    max-width: 275px;
+    max-height: 55px;
+    height: 100%;
+    width: 100%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150.19%;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+    &.btn_block {
+        width: 100%;
+        height: 100%;
+    }
+
+    &.btn {
+        &_bg {
+            max-width: 570px;
+            max-height: 54px;
+        }
+        &_lg {
+            max-width: 275px;
+            max-height: 55px;
+        }
+
+        &_lk {
+            max-width: 198px;
+            max-height: 55px;
+        }
+
+        &_md {
+            max-width: 170px;
+            max-height: 54px;
+        }
+
+        &_sm {
+            max-width: 125px;
+            max-height: 54px;
+        }
+
+        &_sw {
+            max-width: 121px;
+            max-height: 39px;
+        }
+
+        &_so {
+            max-width: 111px;
+            max-height: 30px;
+        }
+    }
+
+    &.btn_primary {
+        height: 100%;
+        width: 100%;
+        background: #FA0411;
+        color: #fff;
+    }
+
+    &.btn_view {
+        background-color: #2275BC;
+        color: #fff;
+    }
+
+    &.btn_header {
+        text-transform: uppercase;
+        border: 1px solid #FFFFFF;
+        background-color: #00B2E7;
+        color: #fff;
+    }
+
+    &.btn_red {
+        height: 100%;
+        width: 100%;
+        color: #fff;
+        background: #F32323;
+    }
+
+    &:hover {
+        &.btn_primary {
+            background: #F32323;
+            border: 1px solid #DF3A3F;
+            color: #fff;
+        }
+
+        &.btn_header {
+            border: 1px solid #FFFFFF;
+            background-color: #1cc0f1a4;
+            color: #fff;
+        }
+
+        &.btn_view {
+            background-color: #2275BC;
+            border: 1px solid #2275BC;
+            color: #fff;
+        }
+
+        &.btn_red {
+            background: #F32323;
+            border: 1px solid #F32323;
+            color: #fff;
+        }
+    }
+}
+
+.nac {
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    label {
+      position: relative;
+      width: 198px;
+      float: left;
+      padding: 10px 0;
+      display: flex;
+      justify-content: center;
+      cursor: pointer;
+      text-transform: uppercase;
+      color: #061A3A;
+      transition: all 0.1s;
+      &::before {
+        position: absolute;
+        content: url('../img/Group.png');
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+      &::after {
+        position: absolute;
+        content: url('../img/Group1.png');
+        top: 0;
+        left: 0;
+        z-index: -1;
+        opacity: 0;
+        visibility: hidden;
+      }
+      &:hover {
+        color: #FFFFFF;
+        &::before {
+          opacity: 0;
+          visibility: hidden;
+        }
+        &::after {
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+    }
+    .active {
+      color: #FFFFFF;
+      &::after {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+
+
+
+@media (max-width:1400px) {
+    .btn {
+        font-size: 14px;
+    }
+}

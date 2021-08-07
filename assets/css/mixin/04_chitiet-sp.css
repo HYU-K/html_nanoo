@@ -1,0 +1,31 @@
+.site42_prodel_col12_chitietsp .breadcrumb {
+  width: 50%;
+  background: no-repeat;
+}
+.site42_prodel_col12_chitietsp .breadcrumb .title1 {
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.site42_prodel_col12_chitietsp .breadcrumb a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.site42_prodel_col12_chitietsp .breadcrumb a:hover {
+  color: #FFFFFF;
+}
+.site42_prodel_col12_chitietsp .breadcrumb .main {
+  position: relative;
+  padding-right: 20px;
+}
+.site42_prodel_col12_chitietsp .breadcrumb .main::after {
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 6px;
+  top: 10px;
+  border-top: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  -webkit-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+  margin-left: 8px;
+}

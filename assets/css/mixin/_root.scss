@@ -1,0 +1,272 @@
+* {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif, 'Poppins-bold' 'Lato' 'Cormorant';
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    text-decoration: none;
+}
+ol,
+ul,
+li {
+    font-family: Roboto;
+    font-style: normal;
+}
+
+
+
+
+.title {
+
+    /* size 36px */
+    &1 {
+        font-family: SVN-Gotham-bold;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 49px;
+
+        &_1 {
+            font-family: Playfair Display;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 48px;
+        }
+
+        &_2 {
+            font-family: Playfair_Display;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 48px;
+        }
+        
+        &_3 {
+            font-family: Cormorant;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 140.1%;
+        }
+
+        &_4 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+        }
+    }
+
+
+    /* size 26px */
+    &2 {
+
+        &_1 {
+
+        }
+        
+        &_2 {
+
+        }
+
+        &_3 {
+
+        }
+
+        &_4 {
+            font-family: Playfair Display;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 32px;
+        }
+    }
+
+
+    /* size 21px */
+    &3 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 21px;
+        line-height: 25px;
+
+        &_1 {
+           
+        }
+
+        &_2 {
+            
+        }
+
+        &_3 {
+           
+        }
+    }
+
+
+    /* size 18px */
+    &3 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 149.99%;
+
+        &_1 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 150.5%;
+        }
+
+        &_2 {
+            
+        }
+
+        &_3 {
+            
+        }
+    }
+
+
+    /* size 16px */
+    &4 {
+        font-family: SVN-Gotham;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 21px;
+
+        &_1 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 130.49%;
+        }
+
+        &_2 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        &_3 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 150.5%;
+        }
+    }
+
+
+    /* size 14px */
+    &5 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+
+        &_1 {
+           
+        }
+
+        &_2 {
+            
+        }
+
+        &_3 {
+           
+        }
+    }
+
+}
+
+
+
+
+
+
+.sanpham {
+
+    /* size 18px */
+    &1 {
+        
+        &_1 {
+           
+        }
+
+        &_2 {
+            
+        }
+
+        &_3 {
+           
+        }
+    }
+
+    
+    /* size 16px */
+    &2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150.5%;
+
+        &_1 {
+           
+        }
+
+        &_2 {
+            
+        }
+
+        &_3 {
+           
+        }
+    }
+
+
+    /* size 14px */
+    &3 {
+        
+        &_1 {
+            
+        }
+        
+        &_2 {
+
+        }
+
+        &_3 {
+
+        }
+    }
+}
+
+
+
+
+
