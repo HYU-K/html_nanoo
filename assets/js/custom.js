@@ -1,24 +1,38 @@
 $(document).ready(function () {
-	$('.slide-top').slick({
+	$('.slide_maumau').slick({
 		slidesToShow: 1,
 		slidesToScroll: 1,
+		autoplay: true,
+		dots: false,
+		arrows: false,
+		infinite: true,
+		speed: 500,
+		fade: true,
+		cssEase: 'linear'
+	});
+
+	$('.slide_maunoibat').slick({
+		slidesToShow: 3,
+		slidesToScroll: 2,
 		autoplay: true,
 		dots: true,
 		arrows: true,
 		infinite: true,
 		speed: 500,
 		fade: false,
-	});
-
-	$('.news-slide').slick({
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		autoplay: false,
-		dots: false,
-		arrows: true,
-		infinite: true,
-		speed: 500,
-		fade: false,
+		responsive: [{
+			breakpoint: 576,
+			settings: {
+				slidesToShow: 2,
+				slidesToScroll: 2,
+			}
+		}, {
+			breakpoint: 400,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+			}
+		}]
 	});
 
 
@@ -72,11 +86,19 @@ $(document).ready(function () {
 			$("nav label").removeClass("active");
 			$(this).addClass("active");
 
+
 			elem.removeClass("z-index");
 			elem.eq(index).addClass("z-index");
 
 		})
 
+	});
+
+	$('.continue').click(function () {
+		$('.van-tabs > .active').next('label').find('a').trigger('click');
+	});
+	$('.back').click(function () {
+		$('.van-tabs > .active').prev('label').find('a').trigger('click');
 	});
 
 
@@ -132,6 +154,7 @@ $(document).ready(function () {
 
 
 
+
 $(function () {
 	function slideMenu() {
 		var activeState = $(".menu-top .menu-list").hasClass("active");
@@ -153,3 +176,6 @@ $(function () {
 		$(".menu-list .accordion-toggle").not(jQuery(this)).removeClass("active-tab").find(".menu-link").removeClass("active");
 	});
 }); // jQuery load
+
+
+

@@ -21,6 +21,43 @@
   }
 }
 
+.view_als {
+  position: relative;
+  font-family: Helvetica_Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  padding-right: 35px;
+  color: #FF000D;
+  &::before {
+    position: absolute;
+    content: "";
+    width: 7px;
+    height: 7px;
+    top: 8px;
+    right: 10px;
+    border-top: 2px solid #FF000D;
+    border-right: 2px solid #FF000D;
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+  }
+  &::after {
+    position: absolute;
+    content: "";
+    width: 7px;
+    height: 7px;
+    top: 8px;
+    right: 4px;
+    border-top: 2px solid #FF000D;
+    border-right: 2px solid #FF000D;
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+  }
+  &:hover {
+    color: #FF000D;
+  }
+}
 
 .view-all {
   font-family: Lato;
