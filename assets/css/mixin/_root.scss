@@ -49,7 +49,7 @@ li {
         }
 
         &_2 {
-            font-family: Playfair_Display;
+            font-family: Playfair Display;
             font-style: normal;
             font-weight: bold;
             font-size: 36px;
@@ -69,6 +69,7 @@ li {
             font-style: normal;
             font-weight: 500;
             font-size: 30px;
+            line-height: 35px;
         }
     }
 
@@ -189,7 +190,11 @@ li {
         line-height: 17px;
 
         &_1 {
-           
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
         }
 
         &_2 {
@@ -219,11 +224,7 @@ li {
         line-height: 22px;
         
         &_1 {
-            font-family: Roboto;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 14px;
-            line-height: 16px;
+            
         }
 
         &_2 {

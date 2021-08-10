@@ -1,0 +1,299 @@
+.site42_bann_col0_slidein-lienhe {
+    position: relative;
+    overflow: hidden;
+    height: 436px;
+    width: 100%;
+    .backgroud {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: auto;
+    }
+    .item_lienhe {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 5;
+        width: 100%;
+        height: 436px;
+        .bann {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 436px;
+            .breadcrumb {
+                width: 100%;
+                background: no-repeat;
+                .title1 {
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                }
+                a {
+                    text-decoration: none;
+                    color: #FFFFFF;
+                    &:hover {
+                    color: #FFFFFF;
+                    }
+                }
+                .main {
+                    position: relative;
+                    padding-right: 20px;
+                    &::after {
+                        position: absolute;
+                        content: "";
+                        width: 6px;
+                        height: 6px;
+                        top: 10px;
+                        border-top: 1px solid #FFFFFF;
+                        border-right: 1px solid #FFFFFF;
+                        -webkit-transform: rotateZ(45deg);
+                        transform: rotateZ(45deg);
+                        margin-left: 8px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.site42_form_col8_guiyeucau {
+    overflow: hidden;
+    width      : 100%;
+    background : #FFFFFF;
+    .form {
+        width : 770px;
+        height: auto;
+        margin: auto;
+        h2 {
+            position: relative;
+            color: #061A3A;
+            text-align    : center;
+            margin-top    : 35px;
+            margin-bottom : 27px;
+            &::before {
+                position: absolute;
+                content: "";
+                width: 89px;
+                height: 5px;
+                bottom: -7px;
+                left: 45%;
+                background: #F90411;
+            }
+        }
+        p {
+            color: #4F4F4F;
+            text-align    : center;
+            margin        : 45px 0;
+        }
+        form {
+
+            input,
+            textarea {
+                width        : 100%;
+                padding      : 10px;
+                outline      : 0;
+                border       : 0;
+                background: #F6F6F6;
+                border: 0.5px solid #E0E0E0;
+                box-sizing: border-box;
+                margin-bottom: 15px;
+                color: #828282;
+            }
+
+            input:nth-child(2),
+            input:nth-child(3) {
+                width: 49%;
+            }
+
+            input:nth-child(3) {
+                float: right;
+            }
+
+            textarea {
+
+                resize        : none;
+                padding-bottom: 123px;
+                margin-bottom : 30px;
+            }
+
+            .butt {
+                width: 100%;
+                text-align: center;
+                margin-bottom: 82px;
+                button {
+                    width        : 170px;
+                    height       : 55px;
+                    color        : #FFFFFF;
+                    background   : #C40006;
+                    img {
+                        padding-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.imap {
+    overflow: hidden;
+    width   : 100%;
+    height  : 649px;
+    z-index : 2;
+
+    iframe {}
+}
+
+
+/* responsive */
+
+
+@media (max-width:1200px) {
+    .site42_bann_col0_slidein-lienhe {
+        height: 280px;
+        .backgroud {
+            height: 280px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .item_lienhe {
+            height: 280px;
+            .bann {
+                height: 280px;
+            }
+        }
+    }
+}
+
+@media (max-width:1000px) {
+    .site42_bann_col0_slidein-lienhe {
+        height: 220px;
+        .backgroud {
+            height: 220px;
+        }
+        .item_lienhe {
+            height: 220px;
+            .bann {
+                height: 220px;
+                .breadcrumb {
+                    h2 {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 770px) {
+    .site42_bann_col0_slidein-lienhe {
+        height: 180px;
+        .backgroud {
+            height: 180px;
+        }
+        .item_lienhe {
+            height: 180px;
+            .bann {
+                height: 180px;
+            }
+        }
+    }
+    .site42_form_col8_guiyeucau {
+        padding: 0 15px;
+        .form {
+            width: 100%;
+            h2 {
+                &::before {
+                    left: 44%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .site42_bann_col0_slidein-lienhe {
+        height: 150px;
+        .backgroud {
+            height: 150px;
+        }
+        .item_lienhe {
+            height: 150px;
+            .bann {
+                height: 150px;
+            }
+        }
+    }
+    .site42_form_col8_guiyeucau {
+        .form {
+            h2 {
+                &::before {
+                    left: 42%;
+                }
+            }
+            form {
+                input{
+                    &:nth-child(2) {
+                        width: 100%;
+                    }
+                    &:nth-child(3) {
+                        width: 100%;
+                    }
+                }
+                .butt {
+                    button {
+                        width: 150px;
+                        height: 44px;
+                        img {
+                            width: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width: 460px) {
+    .site42_form_col8_guiyeucau {
+        .form {
+            h2 {
+                &::before {
+                    left: 41%;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .site42_form_col8_guiyeucau {
+        .form {
+            h2 {
+                &::before {
+                    left: 39%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 285px) {
+    .site42_form_col8_guiyeucau {
+        .form {
+            h2 {
+                &::before {
+                    left: 33%;
+                }
+            }
+        }
+    }
+}

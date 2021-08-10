@@ -1,16 +1,15 @@
 .site4_head_col0_kova {
-    padding: 10px 0;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.03);
     transition: all 0.3s;
     .header {
         width: 95%;
         float: left;
-        overflow: hidden;
         display: flex;
         align-items: center;
         justify-content: space-between;
         .menu-top {
             width: 100%;
+            padding: 15px 0;
             .menu-wrapper {
                 display: none;
                 float: right;
@@ -45,7 +44,6 @@
                 margin: 0;
                 display: flex;
                 justify-content: flex-end;
-                padding: 10px 0;
                 .logo-menu {
                     display: none;
                     text-align: center;
@@ -54,6 +52,9 @@
                 li {
                     text-transform: uppercase;
                     padding-right: 50px;
+                    padding-top: 7px;
+                    padding-bottom: 7px;
+                    position: relative;
                     .menu1 {
                         position: relative;
                         text-decoration: none;
@@ -70,11 +71,126 @@
                             background: #C40006;
                         }
                     }
+                    .sub-menu-1 {
+                        display: none;
+                        position: absolute;
+                        width: 240px;
+                        top: 100%;
+                        left: 0;
+                        background: #fff;
+                        z-index: 10;
+                        padding-bottom: 5px;
+                        .a-lv-1 {
+                            float: left;
+                            width: 100%;
+                            position: relative;
+                            a {
+                                margin-bottom: 0px;
+                                position: relative;
+                                display: flex;
+                                align-items: center;
+                                padding: 10px 15px;
+                                font-weight: normal;
+                                text-decoration: none;
+                                text-transform: none !important;
+                                border-bottom: 1px solid #ebebeb;
+                                color: #424242;
+                            }
+                            &:last-child {
+                                a {
+                                    border-bottom: 0;
+                                }
+                            }
+                            .menu2 {
+                                display: none;
+                                position: absolute;
+                                top: 100%;
+                                left: 0;
+                                width: 240px;
+                                background: #fff;
+                                z-index: 10;
+                                padding-left: 25px;
+                                padding-bottom: 5px;
+                                .title5 {
+                                    margin-bottom: 0px;
+                                    position: relative;
+                                    display: flex;
+                                    align-items: center;
+                                    padding: 10px 15px;
+                                    font-weight: normal;
+                                    text-decoration: none;
+                                    text-transform: none !important;
+                                    color: #424242;
+                                    &:hover {
+                                        color: #FA0411;
+                                    }
+                                }
+                                &:last-child {
+                                    a {
+                                        border-bottom: 0;
+                                    }
+                                }
+                            }
+                            &:hover {
+                                a {
+                                    color: #FA0411;
+                                }
+                                .menu2 {
+                                    display: block;
+                                }
+                            }
+                        }
+                        .fa-angle {
+                            position: relative;
+                            &:before {
+                                position: absolute;
+                                content: "";
+                                width: 6px;
+                                height: 6px;
+                                top: 13px;
+                                right: 15px;
+                                border-top: 1px solid #ccc;
+                                border-right: 1px solid #ccc;
+                                transform: rotateZ(135deg);
+                            }
+                            &:hover {
+                                &::before {
+                                    border-top: 1px solid #FA0411;
+                                    border-right: 1px solid #FA0411; 
+                                }
+                            }
+                        }
+                    }
                     &:hover {
                         .menu1 {
                             color: #424242;
                             &::after {
                                 width: 100%;
+                            }
+                        }
+                        .sub-menu-1 {
+                            display: block;
+                        }
+                    }
+                    .fa-angle-down{
+                        position: relative;
+                        &:before {
+                            position: absolute;
+                            content: "";
+                            width: 6px;
+                            height: 6px;
+                            top: 4px;
+                            left: 8px;
+                            border-top: 1px solid #ccc;
+                            border-right: 1px solid #ccc;
+                            transform: rotateZ(135deg);
+                        }
+                    }
+                    &:hover {
+                        .fa-angle-down {
+                            &:before {
+                                border-top: 1px solid #FA0411;
+                                border-right: 1px solid #FA0411;
                             }
                         }
                     }
@@ -86,7 +202,7 @@
         position: relative;
         float: left;
         padding-right: 0;
-        margin-top: 12px;
+        margin-top: 20px;
         .fa-search {
             padding: 10px;
         }

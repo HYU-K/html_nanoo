@@ -35,6 +35,12 @@
             max-width: 570px;
             max-height: 54px;
         }
+
+        &_so {
+          max-width: 322px;
+          max-height: 60px;
+        }
+
         &_lg {
             max-width: 275px;
             max-height: 55px;
@@ -60,10 +66,7 @@
             max-height: 39px;
         }
 
-        &_so {
-            max-width: 111px;
-            max-height: 30px;
-        }
+        
     }
 
     &.btn_primary {
@@ -73,9 +76,11 @@
         color: #fff;
     }
 
-    &.btn_view {
-        background-color: #2275BC;
-        color: #fff;
+    &.btn_view_color {
+      background: #FFFFFF;
+      border: 1px solid #FECED3;
+      box-sizing: border-box;
+      color: #C40006;
     }
 
     &.btn_header {
@@ -105,10 +110,10 @@
             color: #fff;
         }
 
-        &.btn_view {
-            background-color: #2275BC;
-            border: 1px solid #2275BC;
-            color: #fff;
+        &.btn_view_color {
+            background-color: #C40006;
+            border: 1px solid #C40006;
+            color: #FFFFFF;
         }
 
         &.btn_red {
@@ -125,11 +130,11 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    label {
+    .latb {
       position: relative;
       width: 198px;
       float: left;
-      padding: 10px 0;
+      padding: 12px 0;
       display: flex;
       justify-content: center;
       cursor: pointer;
@@ -164,6 +169,45 @@
         }
       }
     }
+    .laln {
+        position: relative;
+        width: 241px;
+        float: left;
+        padding: 12px 0;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        text-transform: uppercase;
+        color: #061A3A;
+        transition: all 0.1s;
+        &::before {
+          position: absolute;
+          content: url('../img/Gr1.png');
+          top: 0;
+          left: 0;
+          z-index: -1;
+        }
+        &::after {
+          position: absolute;
+          content: url('../img/Gr.png');
+          top: 0;
+          left: 0;
+          z-index: -1;
+          opacity: 0;
+          visibility: hidden;
+        }
+        &:hover {
+          color: #FFFFFF;
+          &::before {
+            opacity: 0;
+            visibility: hidden;
+          }
+          &::after {
+            opacity: 1;
+            visibility: visible;
+          }
+        }
+      }
     .active {
       color: #FFFFFF;
       &::after {
