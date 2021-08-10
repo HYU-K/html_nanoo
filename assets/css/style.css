@@ -4242,6 +4242,9 @@ li {
     right: 9px;
   }
 
+  .site4_head_col0_kova {
+    padding: 10px 0;
+  }
   .site4_head_col0_kova .container {
     position: relative;
   }
@@ -4274,13 +4277,63 @@ li {
   }
   .site4_head_col0_kova .container .header .menu-top .menu-list .logo-menu {
     display: block;
-    padding: 35px 0 50px 0;
+    padding: 35px 0;
+    float: left;
   }
   .site4_head_col0_kova .container .header .menu-top .menu-list li {
-    padding: 20px 0px 20px 30px;
+    width: 100%;
+    padding: 0;
+    float: left;
+    border-bottom: 1px solid #ebebeb;
+    position: relative;
+  }
+  .site4_head_col0_kova .container .header .menu-top .menu-list li:last-child {
+    border: 0;
   }
   .site4_head_col0_kova .container .header .menu-top .menu-list li .title5 {
+    width: 100%;
+    padding: 20px 0px 20px 25px;
+    text-transform: none;
     font-size: 18px;
+    font-weight: normal;
+    float: left;
+  }
+  .site4_head_col0_kova .container .header .menu-top .menu-list li .sub-menu-1 {
+    position: relative;
+    float: left;
+    width: 100%;
+  }
+  .site4_head_col0_kova .container .header .menu-top .menu-list li .sub-menu-1 .a-lv-1 {
+    padding-left: 15px;
+  }
+  .site4_head_col0_kova .container .header .menu-top .menu-list li .sub-menu-1 .a-lv-1 a {
+    padding: 15px 30px;
+    position: relative;
+  }
+  .site4_head_col0_kova .container .header .menu-top .menu-list li .sub-menu-1 .a-lv-1 a::before {
+    position: absolute;
+    content: "►";
+    left: 5px;
+    top: 14px;
+    font-size: 14px;
+    color: #ccc;
+  }
+  .site4_head_col0_kova .container .header .menu-top .menu-list li .sub-menu-1 .a-lv-1 .menu2 {
+    width: 100%;
+    float: left;
+    position: relative;
+    padding-left: 10px;
+  }
+  .site4_head_col0_kova .container .header .menu-top .menu-list li .sub-menu-1 .a-lv-1 .menu2 a {
+    padding: 15px 30px;
+  }
+  .site4_head_col0_kova .container .header .menu-top .menu-list li .sub-menu-1 .fa-angle::before {
+    top: 18px;
+  }
+  .site4_head_col0_kova .container .header .menu-top .menu-list li .fa-angle-down {
+    position: absolute;
+    right: 30px;
+    top: 17px;
   }
   .site4_head_col0_kova .container .header .menu-top .menu-wrapper {
     display: block;
@@ -4421,13 +4474,6 @@ li {
   .site4_head_col0_kova .container .header .menu-top .menu-list {
     width: 50%;
   }
-  .site4_head_col0_kova .container .header .menu-top .menu-list .logo-menu {
-    display: block;
-    padding: 35px 0 50px 0;
-  }
-  .site4_head_col0_kova .container .header .menu-top .menu-list li {
-    padding: 20px 0px 20px 30px;
-  }
   .site4_head_col0_kova .container .header .menu-top .menu-list li .title5 {
     font-size: 17px;
   }
@@ -4554,18 +4600,8 @@ li {
     font-size: 14px;
   }
 
-  .site4_head_col0_kova {
-    padding: 10px 15px;
-  }
   .site4_head_col0_kova .container .header .menu-top .menu-list {
     width: 60%;
-  }
-  .site4_head_col0_kova .container .header .menu-top .menu-list .logo-menu {
-    display: block;
-    padding: 35px 0 50px 0;
-  }
-  .site4_head_col0_kova .container .header .menu-top .menu-list li {
-    padding: 20px 0px 20px 20px;
   }
 }
 @media screen and (max-width: 460px) {

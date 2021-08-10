@@ -289,6 +289,7 @@
     }
 
     .site4_head_col0_kova {
+        padding: 10px 0;
         .container {
             position: relative;
         .header {
@@ -314,12 +315,64 @@
                     right: 100%;
                     .logo-menu {
                         display: block;
-                        padding: 35px 0 50px 0;
+                        padding: 35px 0;
+                        float: left;
                     }
                     li {
-                        padding: 20px 0px 20px 30px;
+                        width: 100%;
+                        padding: 0;
+                        float: left;
+                        border-bottom: 1px solid #ebebeb;
+                        position: relative;
+                        &:last-child {
+                            border: 0;
+                        }
                         .title5 {
+                            width: 100%;
+                            padding: 20px 0px 20px 25px;
+                            text-transform: none;
                             font-size: 18px;
+                            font-weight: normal;
+                            float: left;
+                        }
+                        .sub-menu-1 {
+                            position: relative;
+                            float: left;
+                            width: 100%;
+                            .a-lv-1 {
+                                padding-left: 15px;
+                                a {
+                                    padding: 15px 30px;
+                                    position: relative;
+                                    &::before {
+                                        position: absolute;
+                                        content: "►";
+                                        left: 5px;
+                                        top: 14px;
+                                        font-size: 14px;
+                                        color: #ccc;
+                                    }
+                                }
+                                .menu2 {
+                                    width: 100%;
+                                    float: left;
+                                    position: relative;
+                                    padding-left: 10px;
+                                    a {
+                                        padding: 15px 30px;
+                                    }
+                                }
+                            }
+                            .fa-angle {
+                                &::before {
+                                    top: 18px;
+                                }
+                            }
+                        }
+                        .fa-angle-down {
+                            position: absolute;
+                            right: 30px;
+                            top: 17px;
                         }
                     }
                 }
@@ -524,11 +577,8 @@
                     .menu-list {
                         width: 50%;
                         .logo-menu {
-                            display: block;
-                            padding: 35px 0 50px 0;
                         }
                         li {
-                            padding: 20px 0px 20px 30px;
                             .title5 {
                                 font-size: 17px;
                             }
@@ -709,18 +759,14 @@
 
     
     .site4_head_col0_kova {
-        padding: 10px 15px;
         .container {
             .header {
                 .menu-top {
                     .menu-list {
                         width: 60%;
                         .logo-menu {
-                            display: block;
-                            padding: 35px 0 50px 0;
                         }
                         li {
-                            padding: 20px 0px 20px 20px;
                         }
                     }
                 }

@@ -1,34 +1,27 @@
 let menu_list = {
     1: {
         "link": "02_gioithieu",
-        "title": "GIỚI THIỆU",
-        "sub_menu": {
-            "link": "",
-            "title": "",
-        },
-
+        "title": "Giới thiệu",
     },
-
-
     2: {
         "link": "",
-        "title": "SẢN PHẨM",
+        "title": "Sản phẩm",
     },
     3: {
         "link": "",
-        "title": "HỆ THỐNG PHÂN PHỐI",
+        "title": "Hệ thống phân phối",
     },
     4: {
         "link": "",
-        "title": "TIN TỨC",
+        "title": "Tin tức",
     },
     5: {
         "link": "",
-        "title": "THƯ VIỆN",
+        "title": "Thư viện",
     },
     6: {
         "link": "",
-        "title": "LIÊN HỆ",
+        "title": "Liên hệ",
     },
 };
 
