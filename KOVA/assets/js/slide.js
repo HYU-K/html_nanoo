@@ -72,7 +72,7 @@ $(document).ready(function () {
         },
       },
     });
-    $('.slider-img').slick({
+    $('.img-slide_item').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,

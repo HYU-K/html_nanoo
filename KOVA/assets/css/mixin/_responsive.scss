@@ -4,7 +4,9 @@
     }
     
 }
-
+.container{
+    padding: 0;
+}
 
 @media (min-width:1600px) {
     h {
@@ -179,6 +181,10 @@
 }
 
 @media (max-width:1000px) {
+    .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     h {
         &1 {
             font-size: 30px;

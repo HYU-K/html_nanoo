@@ -1,0 +1,95 @@
+.site42_pro_col0_sanpham{
+    background-position: bottom;
+    background-repeat: repeat-x;
+    padding: 146px 0px 153px 0px;
+    background-color: #F9F2F2;
+    .title4{
+        font-family:  Helvetica-Neue;
+        font-weight: normal;
+        line-height: 19px;
+    }
+    #slide-sanpham_home{
+        margin-top: 65px;
+        width: 100%;
+        .owl-stage{
+            padding: 20px 0px;
+        }
+        .owl-item{
+            transition: all .4s ease;
+            &:hover{
+                transition: all .4s ease;
+                transform: translateY(-5px);
+                box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            }
+        }
+        .owl-next ,.owl-prev{
+            position: absolute;
+            top: calc(100%/2 - 98px/2);
+            width: 38.01px;
+            height: 98.02px;
+            background: rgba(120, 119, 119, 0.15);
+        }
+        .owl-next{
+            right: -25px;
+        }
+        .owl-prev{
+            left: -25px;
+        }
+        .card_item{
+            background: #FFFFFF;
+            max-width: 370px;
+            width: 100%;
+            overflow: hidden;
+        }
+        .img-slide_item{
+            width: 100%;
+            .img-slide{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 315px;
+                img{
+                    &:focus-visible{
+                        outline: none;
+                    }
+                }
+            }
+        }
+        .card_text-item{
+            padding: 25px 0px;
+            height: 176px;
+            text-align: center;
+            border-radius: 0px 80px 0px 0px;
+            overflow: hidden;
+            background-position: bottom center;
+            background-repeat: no-repeat;
+            p{
+                margin-top: 14px;
+                margin-bottom: 25px;
+            }
+        }
+        .title3{
+            font-family: Lato;
+            font-weight: normal;
+            line-height: 24px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        .title4{
+            color: #FFFFFF;
+        }
+    }
+
+}
+@media screen and (max-width: 1023px) {
+    .site42_pro_col0_sanpham{
+        #slide-sanpham_home{
+            .owl-next{
+                right: -5px;
+            }
+            .owl-prev{
+                left: -5px;
+            }
+        }
+    }
+}
