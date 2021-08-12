@@ -1,0 +1,67 @@
+.site42_bann_col0_slidein{
+    position: relative;
+    #slidein-banner{
+        position: relative;
+        &::before{
+            content: '';
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, #E15168 -0.99%, #F4BBC1 100.57%);
+            mix-blend-mode: overlay;
+            opacity: 0.32;
+            position: absolute;
+            top: 0;
+            z-index: 1;
+        }
+    }
+    .link-page{
+        width: 100%;
+        position: absolute;
+        top: calc(100%/2 - 105px/2);
+        left: 0px;
+        z-index: 2;
+    }
+    h2{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 42px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .breadcrumb {
+        background: no-repeat;
+        padding: 10px 0;
+        a {
+          text-decoration: none;
+          color: #FFF;
+          &:hover {
+            color: #ff0000;
+          }
+        //   &:last-child {
+        //     color: #ffffff;
+        //   }
+        }
+        .main {
+          position: relative;
+          padding-right: 20px;
+          &:last-child{
+              &::after{
+                border: none;
+              } 
+          }
+          &::after {
+            position: absolute;
+            content: "";
+            width: 6px;
+            height: 6px;
+            top: 10px;
+            border-top: 1px solid #ffffff;
+            border-right: 1px solid #ffffff;
+            -webkit-transform: rotateZ(45deg);
+            transform: rotateZ(45deg);
+            margin-left: 8px;
+          }
+        }
+    }
+}
