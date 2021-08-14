@@ -116,7 +116,7 @@
                 transform: perspective(1px) translateZ(0);
             }
             &:hover {
-                border: 5px solid #ff000d;
+                border: 2px solid #ff000d;
                 img {
                     transition: all 0.4s ease-in-out;
                     transform: rotate(2deg) scale(1.1);
