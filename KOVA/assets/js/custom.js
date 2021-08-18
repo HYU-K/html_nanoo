@@ -75,10 +75,6 @@ $(document).ready(function () {
 
 		contentl = elem.length;
 
-
-
-
-
 		$("nav label").click(function () {
 			var index = $(this).index();
 			var d = index * (360 / contentl);
@@ -91,7 +87,25 @@ $(document).ready(function () {
 			elem.eq(index).addClass("z-index");
 
 		})
+	});
+	$(function () {
+		var duration = 2000,
+			el = $(".item");
+			el1 = $("#tttuvan .item");
+		el.eq(0).addClass("active_1");
+		el1.eq(0).addClass("active_1");
+		$(".item").click(function () {
+			var index = $(this).index();
+			el.removeClass("active_1");
+			el.eq(index).addClass("active_1");
 
+		})
+		$("#tttuvan .item").click(function () {
+			var index1 = $(this).index();
+			el1.removeClass("active_1");
+			el1.eq(index1).addClass("active_1");
+
+		})
 	});
 
 	$('.continue').click(function () {
@@ -149,6 +163,9 @@ $(document).ready(function () {
 		$(".togglesearch").toggle();
 		$(".input__search").focus();
 	});
+	$(".list-hoidap li").click(function () {
+		$(this).closest('li').toggleClass('active');
+	});
 
 });
 
@@ -176,6 +193,3 @@ $(function () {
 		$(".menu-list .accordion-toggle").not(jQuery(this)).removeClass("active-tab").find(".menu-link").removeClass("active");
 	});
 }); // jQuery load
-
-
-

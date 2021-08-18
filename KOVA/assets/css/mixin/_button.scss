@@ -202,6 +202,7 @@ $action-color: $green;
   }
 }
 .btn-4{
+  display: inline-block;
   height: 68px;
   width: 187px;
   text-align: center;
@@ -228,6 +229,8 @@ $action-color: $green;
   &:hover {
       color: #fff;
       box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 4px;
+      transform: scale(1.02);
+      transition: all 0.3s ease;
       &:after {
           left: 0;
           width: 100%;

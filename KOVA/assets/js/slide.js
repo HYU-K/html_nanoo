@@ -72,6 +72,90 @@ $(document).ready(function () {
         },
       },
     });
+    $("#slide_videonoibat").owlCarousel({
+      loop: true,
+      margin: 30,
+      nav: true,
+      navText: ["<img src='./assets/img/prev2.png'>","<img src='./assets/img/next2.png'>"],
+      items: 2,
+      dots: true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        321: {
+          items: 1,
+        },
+        400: {
+          items: 1.2,
+        },
+        600: {
+          items: 1.7,
+        },
+        800: {
+          items: 2.2,
+        },
+        1000: {
+          items: 2,
+        },
+      },
+    });
+    $("#slide_tinnoibat").owlCarousel({
+      loop: true,
+      margin: 30,
+      nav: true,
+      navText: ["<img src='./assets/img/prev2.png'>","<img src='./assets/img/next2.png'>"],
+      items: 2,
+      dots: true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        321: {
+          items: 1,
+        },
+        400: {
+          items: 1.2,
+        },
+        600: {
+          items: 1.7,
+        },
+        800: {
+          items: 2.2,
+        },
+        1000: {
+          items: 2,
+        },
+      },
+    });
+    $("#slide_albumnoibat").owlCarousel({
+      loop: true,
+      margin: 30,
+      nav: true,
+      navText: ["<img src='./assets/img/prev2.png'>","<img src='./assets/img/next2.png'>"],
+      items: 2,
+      dots: true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        321: {
+          items: 1,
+        },
+        400: {
+          items: 1.2,
+        },
+        600: {
+          items: 1.7,
+        },
+        800: {
+          items: 2.2,
+        },
+        1000: {
+          items: 2,
+        },
+      },
+    });
     $('.img-slide_item').slick({
       slidesToShow: 1,
       slidesToScroll: 1,

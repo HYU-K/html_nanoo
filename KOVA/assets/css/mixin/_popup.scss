@@ -1,0 +1,94 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    &:target {
+        visibility: visible;
+        opacity: 1;
+        z-index: 2;
+    }
+}
+.popup_son {
+    margin: 13% auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 0px;
+    max-height: 618px;
+    max-width: 770px;
+    width: 100%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    text-align: center;
+    .close {
+        position: absolute;
+        top: 17px;
+        right: 17px;
+        transition: all 200ms;
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #333333;
+        &:hover {
+            color: #e73b2b;
+        }
+    }
+    .title_kq {
+        height: 70px;
+        max-width: 630px;
+        width: 100%;
+        position: absolute;
+        top: calc(-70px / 2);
+        left: calc(100% / 2 - 630px / 2);
+        background: #c40006;
+        border-radius: 30px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            margin-right: 27px;
+        }
+        h3 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 150.5%;
+            text-transform: uppercase;
+            color: #ffffff;
+        }
+    }
+    .content_kq {
+        max-width: 649px;
+        margin: 158px auto 0px auto;
+    }
+    .item_kq {
+        max-width: 163px;
+        text-align: center;
+        .img-item {
+            width: 100%;
+            max-height: 174px;
+        }
+        .title3 {
+            margin: 14px 0;
+            font-family: Roboto;
+            font-weight: normal;
+            line-height: 150.5%;
+            color: #4f4f4f;
+        }
+        span {
+            font-family: Roboto;
+            font-weight: bold;
+            line-height: 150.5%;
+            color: #c40006;
+        }
+    }
+    .btn-4 {
+        margin-top: 85px;
+        margin-bottom: 30px;
+    }
+}
