@@ -28,7 +28,7 @@ let menu_list = {
 
 
 $(document).ready(function () {
-    $('.site4_head_col0_kova').append(renderHeader());
+    $('.site42_head_col0_kova').append(renderHeader());
 })
 
 

@@ -1,4 +1,4 @@
-.site42_bann_col0_slidein{
+.site42_bann_col0_slidein2{
     position: relative;
     #slidein-banner{
         position: relative;
@@ -64,4 +64,25 @@
           }
         }
     }
+}
+@media (max-width:1000px) {
+  .site42_bann_col0_slidein{
+    .link-page{
+      top: calc(100%/2 - 67px/2);
+    }
+    h2{
+      line-height: 25px;
+    }
+    #slidein-banner{
+      min-height: 200px;
+      .owl-item{
+        img {
+          display: block;
+          width: 100%;
+          min-height: 200px;
+          object-fit: cover;
+      }
+      }
+    }
+  }
 }

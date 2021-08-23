@@ -3,6 +3,27 @@
     background-repeat: repeat-x;
     padding: 146px 0px 153px 0px;
     background-color: #f9f2f2;
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        width: 57px;
+        height: 57px;
+        left: 12%;
+        top: 9%;
+        background: linear-gradient(180deg, #feced3 0%, #fbe6e9 100%);
+        border-radius: 50%;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        width: 84px;
+        height: 168px;
+        border-radius: 130px 0px 0px 130px;
+        right: 0px;
+        bottom: 36%;
+        background: linear-gradient(180deg, rgba(254, 206, 211, 0.7) 0%, rgba(251, 230, 233, 0.7) 100%);
+    }
     .title4 {
         font-family: Helvetica-Neue;
         font-weight: normal;
@@ -50,6 +71,7 @@
                 align-items: center;
                 height: 315px;
                 img {
+                    max-width: 100%;
                     &:focus-visible {
                         outline: none;
                     }
@@ -84,6 +106,17 @@
 
 .site42_html_col12_mamau_home {
     padding: 79px 0px;
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: 20%;
+        left: 0;
+        height: 291px;
+        width: 235px;
+        z-index: -1;
+        background-image: url("../img/mask-mm.png");
+    }
     .container {
         text-align: center;
     }
@@ -315,6 +348,16 @@
 
 .site42_new_col12_tintuc {
     padding: 83px 0px;
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        width: 201px;
+        height: 274px;
+        background-image: url("../img/mask-tt.png");
+    }
     .top-title {
         position: relative;
         .date {
@@ -423,7 +466,7 @@
         background: #fff;
         padding: 44px 56px 63px 56px;
         position: relative;
-        .title4{
+        .title4 {
             line-height: 22px;
             margin-top: 9px;
         }
@@ -443,14 +486,14 @@
             }
         }
     }
-    .right-lienhe{
+    .right-lienhe {
         padding: 44px 56px 63px 56px;
         max-width: 652px;
         width: 100%;
-        background: linear-gradient(143.27deg, #FF000D -4.51%, #A43234 129.42%);
+        background: linear-gradient(143.27deg, #ff000d -4.51%, #a43234 129.42%);
         position: relative;
-        &::after{
-            content: '';
+        &::after {
+            content: "";
             position: absolute;
             width: 88px;
             height: 88px;
@@ -458,87 +501,85 @@
             right: -44px;
             bottom: -44px;
             background: linear-gradient(180deg, rgba(254, 206, 211, 0.7) 0%, rgba(251, 230, 233, 0.7) 100%);
-            mix-blend-mode: normal;            
+            mix-blend-mode: normal;
         }
         h2 {
-            color: #FFF;
-            &::before{
-                background: #FFF;
+            color: #fff;
+            &::before {
+                background: #fff;
             }
         }
-        .title4_1{
+        .title4_1 {
             margin-top: 36px;
             font-family: Lato;
             line-height: 164.71%;
             text-align: justify;
-            color: #FFFFFF;
+            color: #ffffff;
         }
-        .title4{
+        .title4 {
             margin-top: 23px;
             font-family: Lato;
             line-height: 150.36%;
         }
-        .title4_2{
+        .title4_2 {
             font-family: Lato;
             line-height: 150%;
         }
-        form{
+        .form_lienhe {
             margin-top: 30px;
-            &>.group{
-                &:last-child{
+            & > .group {
+                &:last-child {
                     margin-bottom: 0px;
                 }
             }
         }
-        .btn-5{
+        .btn-5 {
             display: inline-block;
             text-align: center;
             padding-top: 13px;
             height: 50px;
             width: 158px;
             border-radius: 5px;
-            color: #FF000D;
-            background: #FFF;
+            color: #ff000d;
+            background: #fff;
             // transition: all 0.3s ease;
-            svg{
+            svg {
                 margin-left: 10px;
             }
-            &:hover{
+            &:hover {
                 color: #fff;
-                background: linear-gradient(90deg, #FA0411 0%, #FF6200 100%);
+                background: linear-gradient(90deg, #fa0411 0%, #ff6200 100%);
                 transition-timing-function: cubic-bezier(0.45, 1.64, 0.47, 0.66);
                 box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 4px;
-                svg{
-                    path{
-                        fill: #FFF;
+                svg {
+                    path {
+                        fill: #fff;
                     }
                 }
             }
-            &:active{
+            &:active {
                 transform: scale(0.95);
                 transition: all 0.3s ease;
-              }
+            }
         }
-        
     }
-    .group-button{
+    .group-button {
         margin-top: 34px;
-        .btn-4{
+        .btn-4 {
             display: flex;
             justify-content: center;
             align-items: center;
-            img{
+            img {
                 margin-right: 10px;
-            }   
+            }
         }
-        .title5{
+        .title5 {
             font-family: Lato;
             line-height: 150.07%;
-            color: #FFFFFF;
+            color: #ffffff;
             text-transform: uppercase;
         }
     }
-    
 }
 @media (max-width: 1200px) {
     .site42_html_col12_mamau_home {
@@ -548,6 +589,27 @@
                 h5 {
                     margin-top: 10px;
                 }
+            }
+        }
+    }
+    .site42_form_col0_lienhevoichungtoi {
+        .lef-lienhe {
+            width: 48%;
+            padding: 30px;
+        }
+        .right-lienhe {
+            width: 50%;
+            padding: 30px;
+        }
+        .group-button {
+            .btn-4 {
+                height: 58px;
+                width: 189px;
+            }
+        }
+        .form_lienhe {
+            textarea {
+                max-height: 103px;
             }
         }
     }
@@ -564,6 +626,7 @@
         }
     }
     .site42_html_col12_mamau_home {
+        padding: 30px 0px;
         .row-main {
             .item {
                 width: 48%;
@@ -584,12 +647,100 @@
     }
 }
 @media screen and (max-width: 992px) {
+    .site42_pro_col0_sanpham {
+        padding: 60px 0px;
+        &::before {
+            left: 27%;
+        }
+        #slide-sanpham_home {
+            .owl-next {
+                right: -5px;
+            }
+            .owl-prev {
+                left: -5px;
+            }
+            .img-slide_item {
+                .img-slide {
+                    height: auto;
+                    max-height: 280px;
+                    padding: 15px;
+                    img {
+                        max-width: 100%;
+                    }
+                }
+            }
+            .card_text-item {
+                padding: 18px 0px;
+                height: 148px;
+                border-radius: 0px 60px 0px 0px;
+                p {
+                    margin-top: 9px;
+                    margin-bottom: 14px;
+                }
+            }
+            .button_click {
+                .button--bubble {
+                    width: 122px;
+                    height: 40px;
+                }
+            }
+        }
+    }
     .site42_html_col0_congcuhotro {
         ul {
             justify-content: center;
             li {
                 // max-width: 35% !important;
                 width: 33%;
+            }
+        }
+    }
+    .site42_form_col0_lienhevoichungtoi {
+        .lef-lienhe {
+            ul {
+                li {
+                    margin-top: 30px;
+                }
+            }
+            .title4 {
+                margin-top: 7px;
+            }
+        }
+        .right-lienhe {
+            &::after {
+                right: -15px;
+            }
+            width: 50%;
+            .title4_1 {
+                margin-top: 20px;
+            }
+
+            .form_lienhe {
+                margin-top: 14px;
+                input {
+                    &:focus ~ .label,
+                    &:valid ~ .label {
+                        top: -13px;
+                    }
+                }
+            }
+            .title4 {
+                margin-top: 19px;
+            }
+        }
+        .group-button {
+            .btn-4 {
+                height: 58px;
+                width: 137px;
+                img {
+                    margin-right: 5px;
+                    width: 27%;
+                }
+            }
+        }
+        .form_lienhe {
+            textarea {
+                max-height: 85px;
             }
         }
     }
@@ -615,13 +766,74 @@
             }
         }
     }
+    .site42_form_col0_lienhevoichungtoi {
+        padding: 60px 0px;
+        .row-lienhe {
+            flex-direction: column;
+        }
+        .lef-lienhe {
+            max-width: 100%;
+            width: 100%;
+            padding: 20px;
+        }
+        .right-lienhe {
+            padding: 20px;
+            margin-top: 15px;
+            max-width: 100%;
+            width: 100%;
+            .btn-5 {
+                padding-top: 15px;
+                height: 50px;
+                width: 144px;
+            }
+        }
+        .group-button {
+            max-width: 324px;
+            .btn-4 {
+                font-size: 13px;
+                height: 50px;
+                width: 144px;
+            }
+        }
+    }
 }
 @media screen and (max-width: 540px) {
+    .site42_pro_col0_sanpham {
+        padding: 20px 0px;
+        #slide-sanpham_home {
+            margin-top: 10px;
+            .card_text-item {
+                padding: 18px 0px;
+                height: 135px;
+                border-radius: 0px 32px 0px 0px;
+                p {
+                    margin-top: 4px;
+                    margin-bottom: 14px;
+                }
+            }
+            .button_click {
+                .button--bubble {
+                    width: 102px;
+                    height: 35px;
+                    padding: 6px;
+                }
+            }
+        }
+    }
     .site42_html_col12_mamau_home {
+        padding: 20px;
+        form {
+            .btn-search {
+                width: 27%;
+            }
+        }
         .row-main {
             justify-content: center;
             .item {
                 width: 77%;
+            }
+            .item-top {
+                margin-top: 20px;
             }
             .list-mau {
                 .btn {
@@ -633,14 +845,25 @@
                 width: 100%;
             }
         }
+        .btn2 {
+            margin-top: 23px;
+        }
     }
     .site42_html_col0_congcuhotro {
+        padding: 30px 0px;
         ul {
+            margin-top: 32px;
             justify-content: space-between;
             li {
                 max-width: 50% !important;
                 width: 50%;
             }
+        }
+    }
+    .site42_new_col12_tintuc {
+        padding: 30px 0px;
+        #slide-tintuc {
+            margin-top: 35px;
         }
     }
 }
@@ -666,6 +889,21 @@
                 li {
                     margin-top: 2px;
                 }
+            }
+        }
+    }
+    .site42_form_col0_lienhevoichungtoi {
+        .right-lienhe {
+            .btn-5 {
+                height: 45px;
+                width: 127px;
+            }
+        }
+        .group-button {
+            .btn-4 {
+                font-size: 12px;
+                height: 45px;
+                width: 122px;
             }
         }
     }

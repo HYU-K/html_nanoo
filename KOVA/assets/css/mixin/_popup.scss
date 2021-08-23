@@ -15,7 +15,7 @@
     }
 }
 .popup_son {
-    margin: 13% auto;
+    margin: calc(1% + 118px) auto;
     padding: 20px;
     background: #fff;
     border-radius: 0px;
@@ -27,8 +27,8 @@
     text-align: center;
     .close {
         position: absolute;
-        top: 17px;
-        right: 17px;
+        top: 5px;
+        right: 13px;
         transition: all 200ms;
         font-size: 30px;
         font-weight: bold;
@@ -40,17 +40,17 @@
     }
     .title_kq {
         height: 70px;
-        max-width: 630px;
-        width: 100%;
+        // max-width: 630px;
+        width: 82%;
         position: absolute;
         top: calc(-70px / 2);
-        left: calc(100% / 2 - 630px / 2);
+        left: calc(100% / 2 - 82% / 2);
         background: #c40006;
         border-radius: 30px 0px;
         display: flex;
         justify-content: center;
         align-items: center;
-        img{
+        img {
             margin-right: 27px;
         }
         h3 {
@@ -90,5 +90,64 @@
     .btn-4 {
         margin-top: 85px;
         margin-bottom: 30px;
+    }
+}
+@media (max-width: 1400px) {
+    .popup_son {
+        max-height: 506px;
+        .title_kq {
+            height: 60px;
+            top: calc(-60px / 2);
+        }
+        .content_kq {
+            margin: 70px auto 0px auto;
+        }
+        .btn-4 {
+            margin-top: 42px;
+            margin-bottom: 0;
+        }
+    }
+}
+@media (max-width: 1000px) {
+    .popup_son {
+        .title_kq {
+            height: 50px;
+            top: calc(-50px / 2);
+        }
+        .btn-4 {
+            margin-top: 42px;
+            margin-bottom: 0;
+            height: 50px;
+            width: 160px;
+            padding-top: 16px;
+            font-size: 16px;
+        }
+    }
+}
+@media (max-width: 540px) {
+    .popup_son {
+        .popup_son .close {
+            top: 0px;
+            font-size: 26px;
+        }
+        .title_kq{
+            img{
+                margin-right: 10px;
+                max-width: 9%;
+            }
+            h3{
+                font-size: 15px;
+            }
+        }
+        padding: 10px;
+        .content_kq {
+            margin: 70px auto 0px auto;
+        }
+        .btn-4 {
+            height: 40px;
+            width: 135px;
+            padding-top: 10px;
+            font-size: 14px;
+        }
     }
 }

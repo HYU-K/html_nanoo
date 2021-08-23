@@ -1,0 +1,252 @@
+.site42_new_col0_tintuc img {
+  max-width: 100%;
+}
+.site42_new_col0_tintuc h2 {
+  font-family: Playfair-Display;
+  font-weight: bold;
+  line-height: 48px;
+  color: #363740;
+  position: relative;
+}
+.site42_new_col0_tintuc h2::before {
+  content: "";
+  position: absolute;
+  width: 89px;
+  height: 5px;
+  left: 0px;
+  top: 45px;
+  background: #f90411;
+}
+.site42_new_col0_tintuc .tinnoibat {
+  margin-top: 30px;
+}
+.site42_new_col0_tintuc .tinnoibat .row_tinnoibat {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site42_new_col0_tintuc .tinnoibat .slide1_tnb,
+.site42_new_col0_tintuc .tinnoibat .slide2_tnb {
+  max-width: 570px;
+  width: 50%;
+}
+.site42_new_col0_tintuc .tinnoibat .slide1_tnb .slick-arrow {
+  bottom: -21px;
+  top: auto;
+  height: 42px;
+  width: 42px;
+  z-index: 1;
+}
+.site42_new_col0_tintuc .tinnoibat .slide1_tnb .slick-arrow::before {
+  display: none;
+}
+.site42_new_col0_tintuc .tinnoibat .slide1_tnb .slick-next {
+  background: #fa0411;
+  right: 0px;
+}
+.site42_new_col0_tintuc .tinnoibat .slide1_tnb .slick-prev {
+  right: 42px;
+  left: auto;
+  background: #c40006;
+}
+.site42_new_col0_tintuc .tinnoibat .slide2_tnb .slide-content_tnb h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  color: #061a3a;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.site42_new_col0_tintuc .tinnoibat .slide2_tnb .slide-content_tnb h4:hover {
+  color: #ff0000;
+}
+.site42_new_col0_tintuc .tinnoibat .slide2_tnb .slide-content_tnb .time {
+  display: flex;
+  align-items: center;
+  margin: 15px 0px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 19px;
+  color: #828282;
+}
+.site42_new_col0_tintuc .tinnoibat .slide2_tnb .slide-content_tnb .time img {
+  margin-right: 13px;
+}
+.site42_new_col0_tintuc .tinnoibat .slide2_tnb .slide-content_tnb .title3_1 {
+  font-weight: normal;
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  color: #5a5a5a;
+}
+.site42_new_col0_tintuc .tintuckhac {
+  margin-top: 40px;
+  position: relative;
+}
+.site42_new_col0_tintuc .tintuckhac .date {
+  position: absolute;
+  left: 10px;
+  top: 240px;
+  width: 70px;
+  height: 70px;
+  background: #f90411;
+  text-align: center;
+  padding: 13px 15px;
+  z-index: 3;
+}
+.site42_new_col0_tintuc .tintuckhac .date p {
+  font-family: Lato;
+  line-height: 21px;
+  color: #fff;
+}
+.site42_new_col0_tintuc .tintuckhac .date span {
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+}
+.site42_new_col0_tintuc .tintuckhac .row-tintuckhac {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.site42_new_col0_tintuc .tintuckhac .card_tintuc {
+  margin-top: 30px;
+  max-width: 369px;
+  width: 32%;
+}
+.site42_new_col0_tintuc .tintuckhac .card-img_tintuc {
+  overflow: hidden;
+  width: 100%;
+  max-height: 242px;
+}
+.site42_new_col0_tintuc .tintuckhac .card-img_tintuc img {
+  transition: all 0.4s ease-in-out;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -ms-transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  transform: perspective(1px) translateZ(0);
+}
+.site42_new_col0_tintuc .tintuckhac .card-img_tintuc:hover {
+  border: 2px solid #ff000d;
+}
+.site42_new_col0_tintuc .tintuckhac .card-img_tintuc:hover img {
+  transition: all 0.4s ease-in-out;
+  transform: rotate(2deg) scale(1.1);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.site42_new_col0_tintuc .tintuckhac h5 {
+  margin: 26px 0px 10px 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150.34%;
+  text-align: justify;
+  color: #424242;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.site42_new_col0_tintuc .tintuckhac h5:hover {
+  color: #ff000d;
+}
+.site42_new_col0_tintuc .tintuckhac .title4_2 {
+  line-height: 24px;
+  text-align: justify;
+  color: #363740;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (max-width: 1200px) {
+  .site42_new_col0_tintuc .tinnoibat .slide1_tnb,
+.site42_new_col0_tintuc .tinnoibat .slide2_tnb {
+    width: 48.5%;
+  }
+}
+@media (max-width: 992px) {
+  .site42_new_col0_tintuc .tinnoibat .slide1_tnb,
+.site42_new_col0_tintuc .tinnoibat .slide2_tnb {
+    width: 100%;
+  }
+  .site42_new_col0_tintuc .tinnoibat .row_tinnoibat {
+    flex-direction: column;
+  }
+  .site42_new_col0_tintuc .tinnoibat .slide-content_tnb {
+    margin-top: 15px;
+  }
+  .site42_new_col0_tintuc .tintuckhac h5 {
+    margin: 13px 0px 5px 0px;
+    text-align: start;
+  }
+  .site42_new_col0_tintuc .tintuckhac .title4_2 {
+    line-height: 22px;
+    text-align: start;
+  }
+  .site42_new_col0_tintuc .tintuckhac .date {
+    padding: 8px 9px;
+    left: 5px;
+    top: 164px;
+    width: 60px;
+    height: 60px;
+  }
+  .site42_new_col0_tintuc .tintuckhac .date span {
+    font-size: 29px;
+  }
+}
+@media (max-width: 540px) {
+  .site42_new_col0_tintuc .tintuckhac .date {
+    top: 174px;
+  }
+  .site42_new_col0_tintuc .tintuckhac .date span {
+    font-size: 29px;
+  }
+  .site42_new_col0_tintuc .tintuckhac .card_tintuc {
+    width: 48%;
+  }
+}
+@media (max-width: 414px) {
+  .site42_new_col0_tintuc .tintuckhac .date {
+    top: 150px;
+    width: 45px;
+    height: 45px;
+    padding: 6px 2px;
+  }
+  .site42_new_col0_tintuc .tintuckhac .date span {
+    font-size: 29px;
+  }
+  .site42_new_col0_tintuc .tintuckhac .date p {
+    line-height: 16px;
+  }
+}
+@media (max-width: 375px) {
+  .site42_new_col0_tintuc .tintuckhac .date {
+    top: 253px;
+  }
+  .site42_new_col0_tintuc .tintuckhac .card_tintuc {
+    width: 100%;
+  }
+}
+@media (max-width: 360px) {
+  .site42_new_col0_tintuc .tintuckhac .date {
+    top: 244px;
+  }
+}
+@media (max-width: 320px) {
+  .site42_new_col0_tintuc .tintuckhac .date {
+    top: 218px;
+  }
+}
+
+/*# sourceMappingURL=05_tintuc.css.map */

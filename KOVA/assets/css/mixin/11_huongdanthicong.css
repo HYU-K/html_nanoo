@@ -1,0 +1,352 @@
+.site42_html_col12_huongdanthicong1 {
+  padding-top: 52px;
+}
+.site42_html_col12_huongdanthicong1 img {
+  max-width: 100%;
+}
+.site42_html_col12_huongdanthicong1 h2 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: bold;
+  line-height: 48px;
+  color: #363740;
+  position: relative;
+}
+.site42_html_col12_huongdanthicong1 h2::before {
+  content: "";
+  width: 89px;
+  height: 5px;
+  position: absolute;
+  left: 0px;
+  transform: translateY(44px);
+  background: #f90411;
+}
+.site42_html_col12_huongdanthicong1 .pagination {
+  margin: 45px 0;
+}
+.site42_html_col12_huongdanthicong1 .nac {
+  margin-bottom: 55px;
+}
+.site42_html_col12_huongdanthicong1 .contents {
+  margin-top: 65px;
+}
+.site42_html_col12_huongdanthicong1 .contents .content {
+  display: none;
+}
+.site42_html_col12_huongdanthicong1 .contents .z-index {
+  display: block;
+}
+.site42_html_col12_huongdanthicong1 #baiviet .tinnoibat #slide_tinnoibat {
+  margin-top: 30px;
+}
+.site42_html_col12_huongdanthicong1 #baiviet .tinnoibat #slide_tinnoibat .owl-next,
+.site42_html_col12_huongdanthicong1 #baiviet .tinnoibat #slide_tinnoibat .owl-prev {
+  position: absolute;
+  top: calc(100% / 3 - 13px);
+  width: 42px;
+  height: 42px;
+  background: #33333385;
+}
+.site42_html_col12_huongdanthicong1 #baiviet .tinnoibat #slide_tinnoibat .owl-next {
+  right: -25px;
+}
+.site42_html_col12_huongdanthicong1 #baiviet .tinnoibat #slide_tinnoibat .owl-prev {
+  left: -25px;
+}
+.site42_html_col12_huongdanthicong1 #baiviet .tinnoibat #slide_tinnoibat .owl-dots .owl-dot span {
+  width: 9px;
+  height: 9px;
+  margin: 5px 7px;
+  background: #c4c4c4;
+  border-radius: 0px;
+}
+.site42_html_col12_huongdanthicong1 #baiviet .tinnoibat #slide_tinnoibat .owl-dots .owl-dot.active span, .site42_html_col12_huongdanthicong1 #baiviet .tinnoibat #slide_tinnoibat .owl-dots .owl-dot:hover span {
+  background: #ff000d;
+}
+.site42_html_col12_huongdanthicong1 #baiviet .tinnoibat .card-tin {
+  max-width: 569px;
+  width: 100%;
+}
+.site42_html_col12_huongdanthicong1 #baiviet .tinnoibat .img_card-tin {
+  max-height: 364px;
+  overflow: hidden;
+}
+.site42_html_col12_huongdanthicong1 #baiviet .tinnoibat .img_card-tin img {
+  transition: all 0.4s ease;
+}
+.site42_html_col12_huongdanthicong1 #baiviet .tinnoibat .img_card-tin:hover img {
+  transform: rotate(2deg) scale(1.05);
+  transition: all 0.4s ease;
+}
+.site42_html_col12_huongdanthicong1 #baiviet .tinnoibat .card-text .title3 {
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 150.19%;
+  color: #061a3a;
+  margin: 18px 0 8px 0;
+}
+.site42_html_col12_huongdanthicong1 #baiviet .tinnoibat .card-text .date {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.site42_html_col12_huongdanthicong1 #baiviet .tinnoibat .card-text .date img {
+  margin-right: 15px;
+  width: unset;
+}
+.site42_html_col12_huongdanthicong1 #baiviet .tinnoibat .card-text .date .title4 {
+  color: #828282;
+}
+.site42_html_col12_huongdanthicong1 #baiviet .tinkhac .wrap {
+  flex-wrap: wrap;
+}
+.site42_html_col12_huongdanthicong1 #baiviet .tinkhac .card-tin {
+  margin-top: 30px;
+  max-width: 270px;
+  width: 100%;
+}
+.site42_html_col12_huongdanthicong1 #baiviet .tinkhac .img_card-tin {
+  max-height: 175px;
+  position: relative;
+  overflow: hidden;
+}
+.site42_html_col12_huongdanthicong1 #baiviet .tinkhac .card-text .title4_3 {
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 150.19%;
+  color: #061a3a;
+  margin: 10px 0 5px 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.site42_html_col12_huongdanthicong1 #baiviet .tinkhac .card-text .date {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.site42_html_col12_huongdanthicong1 #baiviet .tinkhac .card-text .date img {
+  margin-right: 15px;
+  width: unset;
+}
+.site42_html_col12_huongdanthicong1 #baiviet .tinkhac .card-text .date .title4 {
+  color: #828282;
+}
+.site42_html_col12_huongdanthicong1 #video .videonoibat #slide_videonoibat {
+  margin-top: 30px;
+}
+.site42_html_col12_huongdanthicong1 #video .videonoibat #slide_videonoibat .owl-next,
+.site42_html_col12_huongdanthicong1 #video .videonoibat #slide_videonoibat .owl-prev {
+  position: absolute;
+  top: calc(100% / 3 - 13px);
+  width: 42px;
+  height: 42px;
+  background: #33333385;
+}
+.site42_html_col12_huongdanthicong1 #video .videonoibat #slide_videonoibat .owl-next {
+  right: -25px;
+}
+.site42_html_col12_huongdanthicong1 #video .videonoibat #slide_videonoibat .owl-prev {
+  left: -25px;
+}
+.site42_html_col12_huongdanthicong1 #video .videonoibat #slide_videonoibat .owl-dots .owl-dot span {
+  width: 9px;
+  height: 9px;
+  margin: 5px 7px;
+  background: #c4c4c4;
+  border-radius: 0px;
+}
+.site42_html_col12_huongdanthicong1 #video .videonoibat #slide_videonoibat .owl-dots .owl-dot.active span, .site42_html_col12_huongdanthicong1 #video .videonoibat #slide_videonoibat .owl-dots .owl-dot:hover span {
+  background: #ff000d;
+}
+.site42_html_col12_huongdanthicong1 #video .videonoibat .card-video {
+  max-width: 569px;
+  width: 100%;
+}
+.site42_html_col12_huongdanthicong1 #video .videonoibat .img_card-video {
+  max-height: 364px;
+  position: relative;
+  overflow: hidden;
+}
+.site42_html_col12_huongdanthicong1 #video .videonoibat .img_card-video .play {
+  height: 69px;
+  width: 69px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: calc(100% / 2 - 69px / 2);
+  left: calc(100% / 2 - 69px / 2);
+  background: transparent;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+.site42_html_col12_huongdanthicong1 #video .videonoibat .img_card-video .play .btn-play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 51px;
+  width: 51px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+}
+.site42_html_col12_huongdanthicong1 #video .videonoibat .img_card-video .play .btn-play img {
+  width: unset;
+}
+.site42_html_col12_huongdanthicong1 #video .videonoibat .card-text .title3 {
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 150.19%;
+  color: #061a3a;
+  margin: 18px 0 8px 0;
+}
+.site42_html_col12_huongdanthicong1 #video .videonoibat .card-text .date {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.site42_html_col12_huongdanthicong1 #video .videonoibat .card-text .date img {
+  margin-right: 15px;
+  width: unset;
+}
+.site42_html_col12_huongdanthicong1 #video .videonoibat .card-text .date .title4 {
+  color: #828282;
+}
+.site42_html_col12_huongdanthicong1 #video .videokhac .wrap {
+  flex-wrap: wrap;
+}
+.site42_html_col12_huongdanthicong1 #video .videokhac .card-video {
+  margin-top: 30px;
+  max-width: 270px;
+  width: 100%;
+}
+.site42_html_col12_huongdanthicong1 #video .videokhac .img_card-video {
+  max-height: 175px;
+  position: relative;
+  overflow: hidden;
+}
+.site42_html_col12_huongdanthicong1 #video .videokhac .img_card-video .play {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: calc(100% / 2 - 40px / 2);
+  left: calc(100% / 2 - 40px / 2);
+  background: transparent;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+.site42_html_col12_huongdanthicong1 #video .videokhac .img_card-video .play .btn-play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+}
+.site42_html_col12_huongdanthicong1 #video .videokhac .img_card-video .play .btn-play img {
+  width: unset;
+}
+.site42_html_col12_huongdanthicong1 #video .videokhac .card-text .title4_3 {
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 150.19%;
+  color: #061a3a;
+  margin: 10px 0 5px 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.site42_html_col12_huongdanthicong1 #video .videokhac .card-text .date {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.site42_html_col12_huongdanthicong1 #video .videokhac .card-text .date img {
+  margin-right: 15px;
+  width: unset;
+}
+.site42_html_col12_huongdanthicong1 #video .videokhac .card-text .date .title4 {
+  color: #828282;
+}
+.site42_html_col12_huongdanthicong1 #tailieu ul {
+  width: 100%;
+}
+.site42_html_col12_huongdanthicong1 #tailieu ul li {
+  padding: 15px 0;
+  border-top: 1px solid #E2E2E2;
+  width: 100%;
+}
+.site42_html_col12_huongdanthicong1 #tailieu ul li:last-child {
+  border-bottom: 1px solid #E2E2E2;
+}
+.site42_html_col12_huongdanthicong1 #tailieu ul li .date {
+  width: 70px;
+  height: 68px;
+  background: #EBEBEB;
+  text-align: center;
+  padding-top: 13px;
+  z-index: 3;
+}
+.site42_html_col12_huongdanthicong1 #tailieu ul li .date p {
+  font-family: Lato;
+  line-height: 21px;
+  color: #5A5A5A;
+}
+.site42_html_col12_huongdanthicong1 #tailieu ul li .date span {
+  color: #5A5A5A;
+  font-size: 24px;
+  font-weight: bold;
+}
+.site42_html_col12_huongdanthicong1 #tailieu ul li .title4_2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.site42_html_col12_huongdanthicong1 #tailieu ul li:hover .date {
+  background: #C40006;
+}
+.site42_html_col12_huongdanthicong1 #tailieu ul li:hover .date p {
+  color: #ffffff;
+}
+.site42_html_col12_huongdanthicong1 #tailieu ul li:hover .date span {
+  color: #ffffff;
+}
+.site42_html_col12_huongdanthicong1 #tailieu ul li:hover .title4_2 {
+  color: #C40006;
+}
+.site42_html_col12_huongdanthicong1 #tailieu ul li:hover .btn-download {
+  transform: scale(1.03);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px;
+  background: #C40006;
+}
+.site42_html_col12_huongdanthicong1 #tailieu ul li:hover .btn-download:active {
+  transform: scale(0.95);
+  transition: all 0.3s ease;
+}
+.site42_html_col12_huongdanthicong1 #tailieu ul li:hover .btn-download .hover_down {
+  display: block;
+}
+.site42_html_col12_huongdanthicong1 #tailieu ul li:hover .btn-download .nohover {
+  display: none;
+}
+.site42_html_col12_huongdanthicong1 #tailieu ul .btn-download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  background: #ebebeb;
+  transition: all 0.3s ease;
+}
+.site42_html_col12_huongdanthicong1 #tailieu ul .btn-download .hover_down {
+  display: none;
+}
+
+/*# sourceMappingURL=11_huongdanthicong.css.map */

@@ -23,11 +23,14 @@
     .pagination {
         margin: 45px 0;
     }
-    // .nav_title{
-    //     height: 50px;
-    // }
+    .nav_title{
+        width: 100%;
+        overflow-x: auto;
+        height: 59px;
+    }
     .nac {
-        margin-bottom: 55px;
+        min-width: 720px;
+        width: 100%;
     }
     .contents {
         margin-top: 65px;
@@ -146,6 +149,7 @@
                         width: 30px;
                         background: rgba(255, 255, 255, 0.7);
                         border-radius: 50%;
+                        padding: 10px;
                         img {
                             width: unset;
                         }
@@ -188,7 +192,7 @@
         }
         .item_img {
             margin-bottom: 57px;
-            height: 443px;
+            // height: 443px;
             max-width: 316px;
             width: 33%;
             overflow: hidden;
@@ -209,6 +213,7 @@
                 margin-top: 3px;
                 .title_hoidap {
                     width: 100%;
+                    align-items: stretch;
                 }
                 .title4_1 {
                     line-height: 150.36%;
@@ -217,25 +222,27 @@
                 .number {
                     display: inline-block;
                     width: 71px;
-                    height: 68px;
                     background: #fafafa;
-                    padding-top: 22px;
                     text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 18px 0;
                 }
                 .content_hoidap {
                     margin: 0 2px;
                     display: inline-block;
                     max-width: 1023px;
                     width: 100%;
-                    height: 68px;
                     background: #fafafa;
-                    padding: 22px;
+                    padding-left: 20px;
+                    display: flex;
+                    align-items: center;
 
                     
                 }
                 .add-remove {
                     width: 71px;
-                    height: 68px;
                     background: #fafafa;
                     display: flex;
                     justify-content: center;
@@ -280,7 +287,6 @@
                 .content_hoidap,
                 .add-remove {
                     background: #fff8f8;
-                    opacity: 0.5;
                     border: 1px solid #c40006;
                     color: #c40006;
                 }
@@ -307,5 +313,57 @@
                 text-align: justify;
             }
         }
+    }
+}
+@media (max-width:1200px) {
+    .site42_html_col12_thuvien1{
+         #album{
+            .albumkhac{
+                .card-video {
+                    width: 32%;
+                }
+            } 
+         }
+         #chungchi{
+            .item_img {
+                margin-bottom: 57px;
+                width: 32%;
+            }
+         } 
+    }
+}
+@media (max-width:540px) {
+    .site42_html_col12_thuvien1{
+        padding-top: 30px;
+        h2::before {
+            transform: translateY(37px);
+        }
+        .contents {
+            margin-top: 10px;
+        }
+         #album{
+             .albumnoibat{
+                #slide_albumnoibat {
+                    .owl-next {
+                        right: -5px;
+                    }
+                    .owl-prev {
+                        left: -5px;
+                    }
+                }
+             }
+            .albumkhac{
+                .card-video {
+                    margin-top: 15px;
+                    width: 48%;
+                }
+            } 
+         } 
+         #chungchi{
+            .item_img {
+                margin-bottom: 20px;
+                width: 48%;
+            }
+         } 
     }
 }

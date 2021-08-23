@@ -1,0 +1,123 @@
+.tinhluongson_kova img {
+  max-width: 100%;
+}
+
+.site42_form_col12_tinhluongson {
+  padding-top: 53px;
+  padding-bottom: 100px;
+}
+.site42_form_col12_tinhluongson .note {
+  text-align: center;
+}
+.site42_form_col12_tinhluongson .note .title3 {
+  font-family: Roboto;
+  font-style: italic;
+  line-height: 21px;
+  color: #061a3a;
+}
+.site42_form_col12_tinhluongson .nav_title {
+  width: 100%;
+  margin-bottom: 40px;
+  overflow-x: auto;
+  height: 59px;
+}
+.site42_form_col12_tinhluongson .nac {
+  min-width: 970px;
+  width: 100%;
+}
+.site42_form_col12_tinhluongson .contents {
+  margin-top: 65px;
+}
+.site42_form_col12_tinhluongson .contents .content {
+  display: none;
+}
+.site42_form_col12_tinhluongson .contents .z-index {
+  display: block;
+}
+.site42_form_col12_tinhluongson .contents .left-main {
+  width: 49%;
+}
+.site42_form_col12_tinhluongson .contents .left-main form strong,
+.site42_form_col12_tinhluongson .contents .left-main form p {
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 150.5%;
+  margin-bottom: 19px;
+}
+.site42_form_col12_tinhluongson .contents .left-main form input,
+.site42_form_col12_tinhluongson .contents .left-main form select {
+  width: 100%;
+  height: 60px;
+  padding: 17px;
+  margin-bottom: 30px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+}
+.site42_form_col12_tinhluongson .contents .left-main form input:focus-visible,
+.site42_form_col12_tinhluongson .contents .left-main form select:focus-visible {
+  outline: none;
+}
+.site42_form_col12_tinhluongson .contents .left-main form input::placeholder,
+.site42_form_col12_tinhluongson .contents .left-main form select::placeholder {
+  color: #4f4f4f;
+}
+.site42_form_col12_tinhluongson .contents .right-main {
+  width: 49%;
+}
+.site42_form_col12_tinhluongson .btn-4 {
+  height: 60px;
+  width: 224px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  background: #c40006;
+  padding-top: 20px;
+}
+.site42_form_col12_tinhluongson .btn-4 img {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 1400px) {
+  .site42_form_col12_tinhluongson .btn-4 {
+    height: 53px;
+    width: 177px;
+    padding-top: 17px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .site42_form_col12_tinhluongson .contents {
+    margin-top: 35px;
+  }
+  .site42_form_col12_tinhluongson .contents .row-main {
+    flex-direction: column;
+  }
+  .site42_form_col12_tinhluongson .contents .left-main {
+    width: 100%;
+    order: 2;
+    margin-top: 15px;
+  }
+  .site42_form_col12_tinhluongson .contents .right-main {
+    width: 100%;
+  }
+  .site42_form_col12_tinhluongson .contents .right-main .img {
+    text-align: center;
+  }
+  .site42_form_col12_tinhluongson .btn-4 {
+    height: 50px;
+    width: 160px;
+    padding-top: 16px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .site42_form_col12_tinhluongson .btn-4 {
+    height: 40px;
+    width: 135px;
+    padding-top: 10px;
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=10_tinhluongson.css.map */

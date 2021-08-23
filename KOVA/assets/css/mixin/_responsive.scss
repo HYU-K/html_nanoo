@@ -62,7 +62,7 @@
         }
 
         &5 {
-            font-size: 14px;
+            font-size: 16px;
         }
 
         &6 {
@@ -103,11 +103,11 @@
         }
 
         &5 {
-            font-size: 12px;
+            // font-size: 12px;
         }
 
         &6 {
-            font-size: 9px;
+            // font-size: 9px;
         }
     }
 
@@ -154,6 +154,39 @@
 
             &_4 {
                 font-size: 23px;
+            }
+        }
+        &3 {
+            font-size: 15px;
+    
+            &_1 {
+                font-size: 15px;
+            }
+    
+            &_2 {
+                font-size: 15px;
+            }
+    
+            &_3 {
+                font-size: 15px;
+            }
+        }
+    
+    
+        /* size 16px */
+        &4 {
+            font-size: 14px;
+    
+            &_1 {
+                font-size: 14px;
+            }
+    
+            &_2 {
+                font-size: 14px;
+            }
+    
+            &_3 {
+                font-size: 14px;
             }
         }
     
@@ -203,11 +236,11 @@
         }
 
         &5 {
-            font-size: 12px;
+            // font-size: 12px;
         }
 
         &6 {
-            font-size: 9px;
+            // font-size: 9px;
         }
     }
 
@@ -264,21 +297,21 @@
     
     
         /* size 21px */
-        &3 {
-            font-size: 20px;
+        // &3 {
+        //     font-size: 20px;
     
-            &_1 {
-                font-size: 20px;
-            }
+        //     &_1 {
+        //         font-size: 20px;
+        //     }
     
-            &_2 {
-                font-size: 20px;
-            }
+        //     &_2 {
+        //         font-size: 20px;
+        //     }
     
-            &_3 {
-               font-size: 20px;
-            }
-        }
+        //     &_3 {
+        //        font-size: 14px;
+        //     }
+        // }
     
     }
 
@@ -474,7 +507,7 @@
         }
     
     
-        /* size 21px */
+        // /* size 21px */
         &3 {
             font-size: 19px;
     
@@ -494,36 +527,36 @@
     
         /* size 18px */
         &3 {
-            font-size: 16px;
+            font-size: 14px;
     
             &_1 {
-                font-size: 16px;
+                font-size: 14px;
             }
     
             &_2 {
-                font-size: 16px;
+                font-size: 14px;
             }
     
             &_3 {
-                font-size: 16px;
+                font-size: 14px;
             }
         }
     
     
         /* size 16px */
         &4 {
-            font-size: 15px;
+            font-size: 14px;
     
             &_1 {
-                font-size: 15px;
+                font-size: 14px;
             }
     
             &_2 {
-                font-size: 15px;
+                font-size: 14px;
             }
     
             &_3 {
-                font-size: 15px;
+                font-size: 14px;
             }
         }
     
@@ -568,13 +601,6 @@
             }
         }
     }
-
-
-
-    
-
-
-
     .site4_head_col0_kova {
         padding: 10px 15px;
         .container {
@@ -613,12 +639,33 @@
 
     
 }
-
-
-
 /* man:  mobi */
 @media screen and (max-width: 576px) {
-        
+    h {
+        &1 {
+            font-size: 25px;
+        }
+
+        &2 {
+            font-size: 20px;
+        }
+
+        &3 {
+            font-size: 18px;
+        }
+
+        &4 {
+            font-size: 14px;
+        }
+
+        &5 {
+            // font-size: 12px;
+        }
+
+        &6 {
+            // font-size: 9px;
+        }
+    }
     .title {
 
         /* size 36px */
@@ -666,62 +713,39 @@
     
     
         /* size 21px */
-        &3 {
-            font-size: 17px;
+        // &3 {
+        //     font-size: 14px;
     
-            &_1 {
-                font-size: 17px;
-            }
+        //     &_1 {
+        //         font-size: 14px;
+        //     }
     
-            &_2 {
-                font-size: 17px;
-            }
+        //     &_2 {
+        //         font-size: 14px;
+        //     }
     
-            &_3 {
-               font-size: 17px;
-            }
-        }
+        //     &_3 {
+        //        font-size: 14px;
+        //     }
+        // }
+        // /* size 16px */
+        // &4 {
+        //     font-size: 14px;
     
+        //     &_1 {
+        //         font-size: 14px;
+        //     }
     
-        /* size 18px */
-        &3 {
-            font-size: 15px;
+        //     &_2 {
+        //         font-size: 14px;
+        //     }
     
-            &_1 {
-                font-size: 15px;
-            }
+        //     &_3 {
+        //         font-size: 14px;
+        //     }
+        // }
     
-            &_2 {
-                font-size: 15px;
-            }
-    
-            &_3 {
-                font-size: 15px;
-            }
-        }
-    
-    
-        /* size 16px */
-        &4 {
-            font-size: 14px;
-    
-            &_1 {
-                font-size: 14px;
-            }
-    
-            &_2 {
-                font-size: 14px;
-            }
-    
-            &_3 {
-                font-size: 14px;
-            }
-        }
-    
-    }
-    
-    
-    
+    } 
     .sanpham {
     
         /* size 18px */
@@ -784,7 +808,31 @@
 
 
 @media screen and (max-width: 460px) {
+    h {
+        &1 {
+            font-size: 23px;
+        }
 
+        &2 {
+            font-size: 18px;
+        }
+
+        &3 {
+            font-size: 16px;
+        }
+
+        &4 {
+            font-size: 14px;
+        }
+
+        &5 {
+            // font-size: 12px;
+        }
+
+        &6 {
+            // font-size: 9px;
+        }
+    }
     .title {
 
         /* size 36px */
@@ -807,8 +855,6 @@
                 font-size: 19px;
             }
         }
-    
-    
         /* size 26px */
         &2 {
             font-size: 17px;
@@ -829,26 +875,6 @@
                 font-size: 17px;
             }
         }
-    
-    
-        /* size 21px */
-        &3 {
-            font-size: 15px;
-    
-            &_1 {
-                font-size: 15px;
-            }
-    
-            &_2 {
-                font-size: 15px;
-            }
-    
-            &_3 {
-               font-size: 15px;
-            }
-        }
-    
-    
         /* size 18px */
         &3 {
             font-size: 14px;
@@ -865,8 +891,6 @@
                 font-size: 14px;
             }
         }
-    
-    
         /* size 16px */
         &4 {
             font-size: 13px;

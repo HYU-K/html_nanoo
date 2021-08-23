@@ -1,0 +1,117 @@
+.site42_foot_col0_kova {
+  width: 100%;
+  padding-top: 50px;
+  overflow: hidden;
+  background: #734444;
+  position: relative;
+}
+.site42_foot_col0_kova .bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 12px;
+  background: #F8100E;
+  border-top: 1px solid #FFFFFF;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+.site42_foot_col0_kova .left {
+  width: 33%;
+  float: left;
+  padding-right: 20px;
+}
+.site42_foot_col0_kova .left .logo {
+  margin-bottom: 35px;
+}
+.site42_foot_col0_kova .left .logo a {
+  display: flex;
+  padding-left: 15px;
+}
+.site42_foot_col0_kova .left .logo .title3 {
+  margin: 0;
+  font-weight: 900;
+  color: #FFFFFF;
+}
+.site42_foot_col0_kova .left .lienhe li {
+  display: flex;
+  margin-bottom: 15px;
+}
+.site42_foot_col0_kova .left .lienhe li img {
+  width: fit-content;
+  height: fit-content;
+  padding-top: 3px;
+}
+.site42_foot_col0_kova .left .lienhe li .title4_2 {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.site42_foot_col0_kova .center {
+  width: 34%;
+  float: left;
+  padding-right: 20px;
+  padding-top: 15px;
+}
+.site42_foot_col0_kova .center .title4_2 {
+  margin: 0;
+  padding-bottom: 20px;
+  color: #FFFFFF;
+}
+.site42_foot_col0_kova .center .item-input {
+  display: flex;
+  margin-bottom: 35px;
+}
+.site42_foot_col0_kova .center .item-input input {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  color: #B8B8B8;
+}
+.site42_foot_col0_kova .center .item-input button {
+  width: 50px;
+  margin-left: 2px;
+  background: #F8100E;
+}
+.site42_foot_col0_kova .right {
+  width: 33%;
+  float: left;
+  padding: 15px 20px;
+}
+.site42_foot_col0_kova .right .product-page .title4_2 {
+  color: #FFFFFF;
+  margin: 0;
+  padding-bottom: 15px;
+}
+.site42_foot_col0_kova .bot_foot {
+  width: 100%;
+  float: left;
+}
+
+.mes {
+  position: fixed;
+  bottom: 30%;
+  right: 104px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 99;
+}
+
+.backtotop {
+  position: fixed;
+  bottom: 24%;
+  right: 100px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 99;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*# sourceMappingURL=footer.css.map */

@@ -1,63 +1,63 @@
-.site42_bann_col0_slidein-bangmau {
-    position: relative;
-    overflow: hidden;
-    height: 380px;
-    width: 100%;
-    .slide_maumau {
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: auto;
-    }
-    .item_bangmau {
-        position: absolute;
-        background: url(../img/nenmamau.png);
-        background-size: 100% 100%;
-        left: 0;
-        top: 0;
-        z-index: 5;
-        width: 100%;
-        height: 380px;
-        .bann {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            height: 380px;
-            .breadcrumb {
-                width: 100%;
-                background: no-repeat;
-                .title1 {
-                    text-transform: uppercase;
-                    color: #FFFFFF;
-                }
-                a {
-                    text-decoration: none;
-                    color: #FFFFFF;
-                    &:hover {
-                    color: #FFFFFF;
-                    }
-                }
-                .main {
-                    position: relative;
-                    padding-right: 20px;
-                    &::after {
-                        position: absolute;
-                        content: "";
-                        width: 6px;
-                        height: 6px;
-                        top: 10px;
-                        border-top: 1px solid #FFFFFF;
-                        border-right: 1px solid #FFFFFF;
-                        -webkit-transform: rotateZ(45deg);
-                        transform: rotateZ(45deg);
-                        margin-left: 8px;
-                    }
-                }
-            }
-        }
-    }
-}
+// .site42_bann_col0_slidein-bangmau {
+//     position: relative;
+//     overflow: hidden;
+//     height: 380px;
+//     width: 100%;
+//     .slide_maumau {
+//         position: absolute;
+//         left: 0;
+//         top: 0;
+//         width: 100%;
+//         height: auto;
+//     }
+//     .item_bangmau {
+//         position: absolute;
+//         background: url(../img/nenmamau.png);
+//         background-size: 100% 100%;
+//         left: 0;
+//         top: 0;
+//         z-index: 5;
+//         width: 100%;
+//         height: 380px;
+//         .bann {
+//             display: flex;
+//             align-items: center;
+//             justify-content: space-between;
+//             height: 380px;
+//             .breadcrumb {
+//                 width: 100%;
+//                 background: no-repeat;
+//                 .title1 {
+//                     text-transform: uppercase;
+//                     color: #FFFFFF;
+//                 }
+//                 a {
+//                     text-decoration: none;
+//                     color: #FFFFFF;
+//                     &:hover {
+//                     color: #FFFFFF;
+//                     }
+//                 }
+//                 .main {
+//                     position: relative;
+//                     padding-right: 20px;
+//                     &::after {
+//                         position: absolute;
+//                         content: "";
+//                         width: 6px;
+//                         height: 6px;
+//                         top: 10px;
+//                         border-top: 1px solid #FFFFFF;
+//                         border-right: 1px solid #FFFFFF;
+//                         -webkit-transform: rotateZ(45deg);
+//                         transform: rotateZ(45deg);
+//                         margin-left: 8px;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
 
 .site42_html_col12_bangmau {
     overflow: hidden;
@@ -253,42 +253,42 @@
 /* responsive */
 
 
-@media (max-width:1200px) {
-    .site42_bann_col0_slidein-bangmau {
-        height: 270px;
-        .slide_maumau {
-            .backgroud {
-                height: 270px;
-                img {
-                    width: 100%;
-                    height: 100%;
-                }
-            }
-        }
-        .item_bangmau {
-            height: 270px;
-            .bann {
-                height: 270px;
-            }
-        }
-    }
-}
+// @media (max-width:1200px) {
+//     .site42_bann_col0_slidein-bangmau {
+//         height: 270px;
+//         .slide_maumau {
+//             .backgroud {
+//                 height: 270px;
+//                 img {
+//                     width: 100%;
+//                     height: 100%;
+//                 }
+//             }
+//         }
+//         .item_bangmau {
+//             height: 270px;
+//             .bann {
+//                 height: 270px;
+//             }
+//         }
+//     }
+// }
 
 @media (max-width:1000px) {
-    .site42_bann_col0_slidein-bangmau {
-        height: 220px;
-        .slide_maumau {
-            .backgroud {
-                height: 220px;
-            }
-        }
-        .item_bangmau {
-            height: 220px;
-            .bann {
-                height: 220px;
-            }
-        }
-    }
+    // .site42_bann_col0_slidein-bangmau {
+    //     height: 220px;
+    //     .slide_maumau {
+    //         .backgroud {
+    //             height: 220px;
+    //         }
+    //     }
+    //     .item_bangmau {
+    //         height: 220px;
+    //         .bann {
+    //             height: 220px;
+    //         }
+    //     }
+    // }
     .site42_html_col12_bangmau {
         .item_product_color {
             .item_tabs_color {
@@ -325,40 +325,40 @@
 }
 
 @media screen and (max-width: 768px) {
-    .site42_bann_col0_slidein-bangmau {
-        height: 180px;
-        .slide_maumau {
-            .backgroud {
-                height: 180px;
-            }
-        }
-        .item_bangmau {
-            height: 180px;
-            .bann {
-                height: 180px;
-            }
-        }
-    }
+    // .site42_bann_col0_slidein-bangmau {
+    //     height: 180px;
+    //     .slide_maumau {
+    //         .backgroud {
+    //             height: 180px;
+    //         }
+    //     }
+    //     .item_bangmau {
+    //         height: 180px;
+    //         .bann {
+    //             height: 180px;
+    //         }
+    //     }
+    // }
     .site42_html_col12_bangmau {
         padding: 25px 15px;
     }
 }
 
 @media screen and (max-width: 576px) {
-    .site42_bann_col0_slidein-bangmau {
-        height: 150px;
-        .slide_maumau {
-            .backgroud {
-                height: 150px;
-            }
-        }
-        .item_bangmau {
-            height: 150px;
-            .bann {
-                height: 150px;
-            }
-        }
-    }
+    // .site42_bann_col0_slidein-bangmau {
+    //     height: 150px;
+    //     .slide_maumau {
+    //         .backgroud {
+    //             height: 150px;
+    //         }
+    //     }
+    //     .item_bangmau {
+    //         height: 150px;
+    //         .bann {
+    //             height: 150px;
+    //         }
+    //     }
+    // }
     .site42_html_col12_bangmau {
         .item_product_color {
             .item_tabs_color {
@@ -421,25 +421,25 @@
 }
 
 @media screen and (max-width: 400px) {
-    .site42_bann_col0_slidein-bangmau {
-        height: 120px;
-        .slide_maumau {
-            .backgroud {
-                height: 120px;
-            }
-        }
-        .item_bangmau {
-            height: 120px;
-            .bann {
-                height: 120px;
-                .breadcrumb {
-                    .title1 {
-                        margin: 0;
-                    }
-                }
-            }
-        }
-    }
+    // .site42_bann_col0_slidein-bangmau {
+    //     height: 120px;
+    //     .slide_maumau {
+    //         .backgroud {
+    //             height: 120px;
+    //         }
+    //     }
+    //     .item_bangmau {
+    //         height: 120px;
+    //         .bann {
+    //             height: 120px;
+    //             .breadcrumb {
+    //                 .title1 {
+    //                     margin: 0;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
     .site42_html_col12_bangmau {
         .item_product_color {
             .main {

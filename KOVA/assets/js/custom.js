@@ -90,11 +90,11 @@ $(document).ready(function () {
 	});
 	$(function () {
 		var duration = 2000,
-			el = $(".item");
+			el = $("#vpdaidien .item");
 			el1 = $("#tttuvan .item");
 		el.eq(0).addClass("active_1");
 		el1.eq(0).addClass("active_1");
-		$(".item").click(function () {
+		$("#vpdaidien .item").click(function () {
 			var index = $(this).index();
 			el.removeClass("active_1");
 			el.eq(index).addClass("active_1");

@@ -16,6 +16,7 @@ $(document).ready(function () {
       autoplayTimeout: 2000,
       items: 1,
       dots: false,
+      fade: true,
     });
     $("#slide-sanpham_home").owlCarousel({
       loop: true,
@@ -26,24 +27,39 @@ $(document).ready(function () {
       dots: false,
       responsive: {
         0: {
-          items: 1,
+          items: 2,
+          margin: 10,
         },
-        321: {
-          items: 1,
+        360: {
+          items: 2.3,
+          margin: 10,
         },
         400: {
-          items: 1.2,
+          items: 2.8,
+          margin: 10,
         },
         600: {
-          items: 1.7,
+          items: 3,
+          margin: 10,
         },
         800: {
-          items: 2.2,
+          items: 3,
         },
         1000: {
           items: 3,
         },
       },
+    });
+    $('.img-slide_item').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: false,
+      arrows:false,
+      dots: false,
+      arrows: false,
+      infinite: true,
+      speed: 1000,
+      fade: true,
     });
     $("#slide-tintuc").owlCarousel({
       loop: true,
@@ -155,17 +171,6 @@ $(document).ready(function () {
           items: 2,
         },
       },
-    });
-    $('.img-slide_item').slick({
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: true,
-      arrows:false,
-      dots: false,
-      arrows: false,
-      infinite: true,
-      speed: 1000,
-      fade: true,
     });
     $('.slide1_tnb').slick({
       infinite: true,

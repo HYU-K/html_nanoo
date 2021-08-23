@@ -1,0 +1,114 @@
+.form_lienhe {
+  /* LABEL ======================================= */
+  /* active state */
+  /* BOTTOM BARS ================================= */
+  /* active state */
+  /* HIGHLIGHTER ================================== */
+  /* active state */
+  /* ANIMATIONS ================ */
+  /*++++++++++++++++++++++++css textarea++++++++++++++++   */ }
+  .form_lienhe .group {
+    position: relative;
+    margin-bottom: 22px; }
+  .form_lienhe input {
+    background: transparent;
+    padding: 10px 10px 10px 0px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    color: #FFF; }
+  .form_lienhe input:focus {
+    outline: none; }
+  .form_lienhe .label {
+    color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    pointer-events: none;
+    left: 0px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all; }
+  .form_lienhe input:focus ~ .label,
+  .form_lienhe input:valid ~ .label {
+    top: -20px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8); }
+  .form_lienhe .bar {
+    position: relative;
+    display: block;
+    width: 100%; }
+  .form_lienhe .bar:before,
+  .form_lienhe .bar:after {
+    content: "";
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #ffffff;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all; }
+  .form_lienhe .bar:before {
+    left: 50%; }
+  .form_lienhe .bar:after {
+    right: 50%; }
+  .form_lienhe input:focus ~ .bar:before,
+  .form_lienhe input:focus ~ .bar:after {
+    width: 50%; }
+  .form_lienhe .highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5; }
+  .form_lienhe input:focus ~ .highlight {
+    -webkit-animation: inputHighlighter 0.3s ease;
+    -moz-animation: inputHighlighter 0.3s ease;
+    animation: inputHighlighter 0.3s ease; }
+
+@-webkit-keyframes inputHighlighter {
+  from {
+    background: #5264ae; }
+  to {
+    width: 0;
+    background: transparent; } }
+
+@-moz-keyframes inputHighlighter {
+  from {
+    background: #5264ae; }
+  to {
+    width: 0;
+    background: transparent; } }
+
+@keyframes inputHighlighter {
+  from {
+    background: #5264ae; }
+  to {
+    width: 0;
+    background: transparent; } }
+  .form_lienhe textarea {
+    background: transparent;
+    padding: 10px 10px 10px 0px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    color: #FFF;
+    max-height: 123px; }
+  .form_lienhe textarea:focus {
+    outline: none; }
+  .form_lienhe textarea:focus ~ .label,
+  .form_lienhe textarea:valid ~ .label {
+    top: -20px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8); }
+  .form_lienhe textarea:focus ~ .bar:before,
+  .form_lienhe textarea:focus ~ .bar:after {
+    width: 50%; }
+  .form_lienhe textarea:focus ~ .highlight {
+    -webkit-animation: inputHighlighter 0.3s ease;
+    -moz-animation: inputHighlighter 0.3s ease;
+    animation: inputHighlighter 0.3s ease; }

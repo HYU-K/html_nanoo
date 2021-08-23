@@ -1,0 +1,125 @@
+* {
+  scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif, 'Poppins-bold' 'Lato' 'Cormorant';
+  color: #4F4F4F; }
+
+.title {
+  /* size 36px */
+  /* size 26px */
+  /* size 21px */
+  /* size 18px */
+  /* size 16px */
+  /* size 14px */ }
+  .title1 {
+    font-family: SVN-Gotham-bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px; }
+    .title1_1 {
+      font-family: Playfair Display;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 48px; }
+    .title1_2 {
+      font-family: Playfair Display;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 48px; }
+    .title1_3 {
+      font-family: Cormorant;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 140.1%; }
+    .title1_4 {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 35px; }
+  .title2_4 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px; }
+  .title3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px; }
+  .title3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 149.99%; }
+    .title3_1 {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 150.5%; }
+  .title4 {
+    font-family: SVN-Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px; }
+    .title4_1 {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 130.49%; }
+    .title4_2 {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px; }
+    .title4_3 {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 150.5%; }
+  .title5 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px; }
+    .title5_1 {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px; }
+
+.sanpham {
+  /* size 18px */
+  /* size 16px */
+  /* size 14px */ }
+  .sanpham1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px; }
+  .sanpham2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150.5%; }
+    .sanpham2_1 {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px; }
