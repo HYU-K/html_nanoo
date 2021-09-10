@@ -1,0 +1,1424 @@
+.site45_form_col0_dangkytuvan {
+    width: 100%;
+    float: left;
+    background: #7AC041;
+    opacity: 0.95;
+    overflow: hidden;
+    position: relative;
+  }
+  .site45_form_col0_dangkytuvan::before {
+    position: absolute;
+    content: url("../../assets/img/img5.png");
+    left: 0;
+    bottom: 15px;
+  }
+  .site45_form_col0_dangkytuvan .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .site45_form_col0_dangkytuvan .content .left {
+    width: 50%;
+    float: left;
+    padding-right: 80px;
+  }
+  .site45_form_col0_dangkytuvan .content .left .lotu {
+    color: #FFFFFF;
+  }
+  .site45_form_col0_dangkytuvan .content .left .lotu::before {
+    background: #FFFFFF;
+  }
+  .site45_form_col0_dangkytuvan .content .left h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-bottom: 35px;
+  }
+  .site45_form_col0_dangkytuvan .content .left p {
+    font-family: SVN-Poppins-Light;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    text-align: justify;
+    color: #FFFFFF;
+  }
+  .site45_form_col0_dangkytuvan .content .left form {
+    width: 100%;
+  }
+  .site45_form_col0_dangkytuvan .content .left form input,
+  .site45_form_col0_dangkytuvan .content .left form textarea {
+    width: 100%;
+    padding: 7px;
+    padding-left: 0;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #E2E2E2;
+    margin-bottom: 28px;
+    font-family: SVN-Poppins-Light;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    background: no-repeat;
+  }
+  .site45_form_col0_dangkytuvan .content .left form textarea {
+    padding-bottom: 35px;
+  }
+  .site45_form_col0_dangkytuvan .content .left form input::-webkit-input-placeholder, .site45_form_col0_dangkytuvan .content .left form textarea::-webkit-input-placeholder {
+    font-family: SVN-Poppins-Light;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+  }
+  .site45_form_col0_dangkytuvan .content .left form input::-moz-placeholder, .site45_form_col0_dangkytuvan .content .left form textarea::-moz-placeholder {
+    font-family: SVN-Poppins-Light;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+  }
+  .site45_form_col0_dangkytuvan .content .left form input:-ms-input-placeholder, .site45_form_col0_dangkytuvan .content .left form textarea:-ms-input-placeholder {
+    font-family: SVN-Poppins-Light;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+  }
+  .site45_form_col0_dangkytuvan .content .left form input::-ms-input-placeholder, .site45_form_col0_dangkytuvan .content .left form textarea::-ms-input-placeholder {
+    font-family: SVN-Poppins-Light;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+  }
+  .site45_form_col0_dangkytuvan .content .left form input::placeholder,
+  .site45_form_col0_dangkytuvan .content .left form textarea::placeholder {
+    font-family: SVN-Poppins-Light;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+  }
+  .site45_form_col0_dangkytuvan .content .left form select {
+    width: 100%;
+    padding: 7px;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #E2E2E2;
+    margin-bottom: 28px;
+    font-family: SVN-Poppins-Light;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding-left: 0;
+    background: no-repeat;
+    -webkit-appearance: none;
+  }
+  .site45_form_col0_dangkytuvan .content .left form .lukcko {
+    position: relative;
+  }
+  .site45_form_col0_dangkytuvan .content .left form .lukcko::before {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 10px;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #E0E0E0;
+    border-right: 2px solid #E0E0E0;
+    transform: rotateZ(135deg);
+  }
+  .site45_form_col0_dangkytuvan .content .left form select option {
+    font-family: SVN-Poppins-Light;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 150%;
+    color: #000;
+  }
+  .site45_form_col0_dangkytuvan .content .left form .butt span {
+    font-family: SVN-Gotham-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: -7px;
+  }
+  .site45_form_col0_dangkytuvan .content .left form .butt img {
+    margin-left: 10px;
+  }
+  .site45_form_col0_dangkytuvan .content .right {
+    width: 50%;
+    float: left;
+  }
+  .site45_form_col0_dangkytuvan .content .right .image {
+    width: 962px;
+    height: 762px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .site45_form_col0_dangkytuvan .content .right .image:hover img {
+    -webkit-transition: all 2.7s;
+    transition: all 2.7s;
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  .site45_form_col0_dangkytuvan .content .right .image img {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+  }
+  .site45_html_col12_duandautubds {
+    width: 100%;
+    overflow: hidden;
+    padding: 70px 0;
+  }
+  .site45_html_col12_duandautubds .title {
+    text-align: center;
+  }
+  .site45_html_col12_duandautubds .title .lotu {
+    color: #7AC041;
+  }
+  .site45_html_col12_duandautubds .title .lotu::before {
+    background: #7AC041;
+  }
+  .site45_html_col12_duandautubds .title h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 44px;
+    color: #58595B;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  .site45_html_col12_duandautubds #slide_Component .slick-dots {
+    bottom: -50px;
+  }
+  .site45_html_col12_duandautubds #slide_Component .slick-dots li button {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: #E0E3EB;
+  }
+  .site45_html_col12_duandautubds #slide_Component .slick-dots li button::before {
+    color: rgba(255, 255, 255, 0);
+  }
+  .site45_html_col12_duandautubds #slide_Component .slick-dots .slick-active button {
+    background: #7AC041;
+  }
+  .site45_html_col12_duandautubds #slide_Component .slide_Component {
+    text-align: center;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  .site45_html_col12_duandautubds #slide_Component .slide_Component .image {
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .site45_html_col12_duandautubds #slide_Component .slide_Component .image img {
+    width: 100%;
+  }
+  .site45_html_col12_duandautubds #slide_Component .slide_Component .item_title {
+    width: 80%;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 4.51544px 16.0549px rgba(54, 54, 54, 0.05);
+            box-shadow: 0px 4.51544px 16.0549px rgba(54, 54, 54, 0.05);
+    border-radius: 8.02744px;
+    padding: 15px;
+    margin-top: -45px;
+    display: inline-block;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .site45_html_col12_duandautubds #slide_Component .slide_Component .item_title .title {
+    text-align: left;
+    border-bottom: 1px dashed #E0E0E0;
+  }
+  .site45_html_col12_duandautubds #slide_Component .slide_Component .item_title .title h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 22px;
+    color: #333333;
+    margin: 0;
+  }
+  .site45_html_col12_duandautubds #slide_Component .slide_Component .item_title .title p {
+    font-family: SVN-Poppins-light;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    color: #7AC041;
+    margin: 5px 0;
+  }
+  .site45_html_col12_duandautubds #slide_Component .slide_Component .item_title .ress {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 10px;
+  }
+  .site45_html_col12_duandautubds #slide_Component .slide_Component .item_title .ress span {
+    margin-right: 10px;
+  }
+  .site45_html_col12_duandautubds #slide_Component .slide_Component .item_title .ress p {
+    text-align: left;
+    font-family: SVN-Poppins-light;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 150.5%;
+    color: #828282;
+    margin: 0;
+  }
+  .site45_html_col12_duandautubds #slide_Component .slide_Component:hover .item_title {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-box-shadow: 0px 4.51544px 16.0549px rgba(54, 54, 54, 0.1);
+            box-shadow: 0px 4.51544px 16.0549px rgba(54, 54, 54, 0.1);
+  }
+  .site45_bann_col0_lotus-golden_visa {
+    overflow: hidden;
+    width: 100%;
+    }
+  .site45_bann_col0_lotus-golden_visa img {
+        width: 100%;
+    }
+  .site45_breadcrumb_col0_lotus {
+    background: #f6f6f65e;
+    padding: 25px 0;
+    }
+    .site45_breadcrumb_col0_lotus a {
+    text-decoration: none;
+    font-family: SVN-Poppins-light;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 150%;
+    color: #828282;
+    }
+    .site45_breadcrumb_col0_lotus a:first-child {
+    position: relative;
+    }
+    .site45_breadcrumb_col0_lotus a:first-child::before {
+    position: absolute;
+    content: "›";
+    top: -1px;
+    right: -10px;
+    color: #828282;
+    }
+    .site45_breadcrumb_col0_lotus a:last-child {
+    color: #7AC041;
+    margin-left: 10px;
+    }
+    .site45_breadcrumb_col0_lotus a:hover {
+    color: #7AC041;
+    }
+    .site45_intr_col12_lotus {
+        overflow: hidden;
+      }
+      .site45_intr_col12_lotus .item_listbon {
+        width: 100%;
+        padding: 50px 0;
+        background: #f6f6f65e;
+        position: relative;
+      }
+      .site45_intr_col12_lotus .item_listbon::after {
+        position: absolute;
+        content: url("../../assets/img/image2.png");
+        right: 0;
+        top: 90px;
+        z-index: -1;
+      }
+      .site45_intr_col12_lotus .item_listbon .content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+      }
+      .site45_intr_col12_lotus .item_listbon .content .left {
+        width: 45%;
+        padding-right: 50px;
+        float: left;
+      }
+      .site45_intr_col12_lotus .item_listbon .content .left .lotu {
+        color: #7AC041;
+      }
+      .site45_intr_col12_lotus .item_listbon .content .left .lotu::before {
+        background: #7AC041;
+      }
+      .site45_intr_col12_lotus .item_listbon .content .left h2 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 44px;
+        color: #58595B;
+        margin-top: 15px;
+        margin-bottom: 50px;
+      }
+      .site45_intr_col12_lotus .item_listbon .content .left p {
+        font-family: SVN-Poppins-Light;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 24px;
+        color: #4F4F4F;
+        margin: 0;
+        margin-bottom: 10px;
+        text-align: justify;
+      }
+      .site45_intr_col12_lotus .item_listbon .content .right {
+        width: 570px;
+        height: 570px;
+        float: right;
+      }
+      .site45_intr_col12_lotus .item_listbon .content .right .item_slide {
+        width: 100%;
+        height: 100%;
+      }
+      .site45_intr_col12_lotus .item_listbon .content .right .item_slide .image img {
+        width: 100%;
+        height: 100%;
+      }
+      .site45_intr_col12_lotus .item_listbon .content .right .item_slide .slick-list {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+      }
+      .site45_intr_col12_lotus .item_listbon .content .right .item_slide .slick-prev {
+        z-index: 1;
+        width: 61px;
+        height: 58px;
+        left: 79%;
+        top: 94.9%;
+        background: #7AC041;
+      }
+      .site45_intr_col12_lotus .item_listbon .content .right .item_slide .slick-prev::before {
+        position: absolute;
+        content: "";
+        -webkit-transform: rotateZ(-135deg);
+                transform: rotateZ(-135deg);
+        width: 12px;
+        height: 12px;
+        top: 22px;
+        left: 25px;
+        border-top: 3px solid #FFFFFF;
+        border-right: 3px solid #FFFFFF;
+      }
+      .site45_intr_col12_lotus .item_listbon .content .right .item_slide .slick-prev:hover {
+        background: #558E25;
+      }
+      .site45_intr_col12_lotus .item_listbon .content .right .item_slide .slick-next {
+        z-index: 1;
+        width: 61px;
+        height: 58px;
+        right: 0;
+        top: 94.9%;
+        background: #7AC041;
+        border-radius: 0px 0px 5px 0px;
+      }
+      .site45_intr_col12_lotus .item_listbon .content .right .item_slide .slick-next::before {
+        position: absolute;
+        content: "";
+        -webkit-transform: rotateZ(45deg);
+                transform: rotateZ(45deg);
+        width: 12px;
+        height: 12px;
+        top: 22px;
+        right: 25px;
+        border-top: 3px solid #FFFFFF;
+        border-right: 3px solid #FFFFFF;
+      }
+      .site45_intr_col12_lotus .item_listbon .content .right .item_slide .slick-next:hover {
+        background: #558E25;
+      }
+      .site45_html_col0_dichvugoldenvisa {
+        width: 100%;
+        overflow: hidden;
+        padding-top: 90px;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_program {
+        position: relative;
+        width: 100%;
+        float: left;
+        margin-bottom: 90px;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_program .bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_program .bg img {
+        -webkit-filter: contrast(115%) brightness(200%);
+                filter: contrast(115%) brightness(200%);
+      }
+      .site45_html_col0_dichvugoldenvisa .item_program .title {
+        margin-bottom: 90px;
+        text-align: center;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_program .title .lotu {
+        color: #7AC041;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_program .title .lotu::before {
+        background: #7AC041;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_program .title h2 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 44px;
+        color: #58595B;
+        margin-top: 15px;
+        margin-bottom: 35px;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_program .title h2 a {
+        text-decoration: none;
+        color: #F2C94C;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_program .title p {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        color: #4F4F4F;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_program .product {
+        width: 100%;
+        padding-bottom: 70px;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_program .product .top_wite {
+        position: relative;
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_program .product .top_wite::after {
+        position: absolute;
+        content: url("../../assets/img/img7.png");
+        right: -25px;
+        bottom: 80px;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_program .product .top_wite .hex {
+        background-color: #FFFFFF;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_program .product .top_wite .hex .inner h4 {
+        color: #7AC041;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_program .product .top_wite .hex .inner p {
+        color: #4F4F4F;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_program .product .top_blue {
+        position: relative;
+        width: 82%;
+        margin: auto;
+        margin-top: -115px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_program .product .top_blue .hex {
+        background: #7AC041;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_program .product .top_blue .hex .inner h4 {
+        color: #FFFFFF;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_program .product .top_blue .hex .inner p {
+        color: #FFFFFF;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_program .product .top_blue::before {
+        position: absolute;
+        content: url("../../assets/img/img6.png");
+        right: -50px;
+        bottom: 50%;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_program .product .top_blue::after {
+        position: absolute;
+        content: url("../../assets/img/img6.png");
+        left: -50px;
+        bottom: 50%;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_program .product .bott_blue {
+        position: relative;
+        width: 95%;
+        margin: auto;
+        margin-top: -112px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_program .product .bott_blue .hex {
+        background: #7AC041;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_program .product .bott_blue .hex .inner h4 {
+        color: #FFFFFF;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_program .product .bott_blue .hex .inner p {
+        color: #FFFFFF;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_program .product .bott_wite {
+        position: relative;
+        width: 82%;
+        margin: auto;
+        margin-top: -115px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_program .product .bott_wite .hex {
+        background-color: #FFFFFF;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_program .product .bott_wite .hex .inner h4 {
+        color: #7AC041;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_program .product .bott_wite .hex .inner p {
+        color: #4F4F4F;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_program .product .bott_wite:before {
+        position: absolute;
+        content: url("../../assets/img/img7.png");
+        left: 0;
+        top: 53%;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition {
+        position: relative;
+        width: 100%;
+        float: left;
+        padding: 50px 0;
+        background: #f6f6f65e;
+        z-index: 1;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition::after {
+        position: absolute;
+        content: url("../../assets/img/image2.png");
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .title {
+        margin-bottom: 50px;
+        text-align: center;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .title .lotu {
+        color: #7AC041;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .title .lotu::before {
+        background: #7AC041;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .title h2 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 44px;
+        color: #58595B;
+        margin-top: 15px;
+        margin-bottom: 35px;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .title h2 a {
+        text-decoration: none;
+        color: #F2C94C;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .item_label_tt {
+        width: 800px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin: auto;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        padding: 5px 15px;
+        margin-bottom: 50px;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .item_label_tt .continue {
+        display: none;
+        position: relative;
+        width: 25px;
+        height: 45px;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .item_label_tt .continue::before {
+        position: absolute;
+        content: "";
+        bottom: 11px;
+        right: 0;
+        width: 16px;
+        height: 16px;
+        border-top: 4px solid #7AC041;
+        border-right: 4px solid #7AC041;
+        -webkit-transform: rotateZ(45deg);
+                transform: rotateZ(45deg);
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .item_label_tt .back {
+        display: none;
+        position: relative;
+        width: 25px;
+        height: 45px;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .item_label_tt .back::before {
+        position: absolute;
+        content: "";
+        bottom: 11px;
+        left: 0;
+        width: 16px;
+        height: 16px;
+        border-top: 4px solid #7AC041;
+        border-right: 4px solid #7AC041;
+        -webkit-transform: rotateZ(-135deg);
+                transform: rotateZ(-135deg);
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .item_label_tt .van-tabs {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .item_label_tt .van-tabs label {
+        position: relative;
+        width: 349px;
+        float: left;
+        padding: 12px 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        cursor: pointer;
+        -webkit-transition: all 0.1s;
+        transition: all 0.1s;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .item_label_tt .van-tabs label::before {
+        position: absolute;
+        content: url("../../assets/img/labe.png");
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .item_label_tt .van-tabs label::after {
+        position: absolute;
+        content: url("../../assets/img/lab.png");
+        top: 0;
+        left: 0;
+        z-index: -1;
+        opacity: 0;
+        visibility: hidden;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .item_label_tt .van-tabs label span {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 26px;
+        color: #FFFFFF;
+        padding-top: 5px;
+        padding-left: 15px;
+        text-transform: uppercase;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .item_label_tt .van-tabs label:hover::before {
+        opacity: 0;
+        visibility: hidden;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .item_label_tt .van-tabs label:hover::after {
+        opacity: 1;
+        visibility: visible;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .item_label_tt .van-tabs .active::after {
+        opacity: 1;
+        visibility: visible;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .main_product {
+        width: 100%;
+        margin: 25px 0;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .main_product .contents .content {
+        display: none;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .main_product .contents .content .single .left {
+        width: 50%;
+        float: left;
+        padding-right: 5px;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .main_product .contents .content .single .left label {
+        width: 100%;
+        float: left;
+        margin-bottom: 3px;
+        background: #F6F6F6;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        cursor: pointer;
+        height: 77px;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .main_product .contents .content .single .left label:hover {
+        background: #7AC041;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .main_product .contents .content .single .left label:hover ul li:first-child p, .site45_html_col0_dichvugoldenvisa .item_condition .main_product .contents .content .single .left label:hover ul li:last-child p {
+        color: #FFFFFF;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .main_product .contents .content .single .left label ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin: 0;
+        height: 100%;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .main_product .contents .content .single .left label ul li:first-child {
+        width: 14%;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .main_product .contents .content .single .left label ul li:first-child p {
+        font-family: SVN-Poppins-Bold;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 150.4%;
+        text-align: center;
+        color: #4F4F4F;
+        margin: 0;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .main_product .contents .content .single .left label ul li:last-child {
+        width: 86%;
+        height: 100%;
+        padding: 15px 25px;
+        border-left: 3px solid #FFFFFF;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .main_product .contents .content .single .left label ul li:last-child p {
+        font-family: SVN-Poppins-light;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 24px;
+        color: #4F4F4F;
+        margin: 0;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .main_product .contents .content .single .right {
+        width: 50%;
+        float: left;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .main_product .contents .content .single .right .image {
+        width: 100%;
+        height: 476px;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .main_product .contents .content .single .right .image img {
+        width: 100%;
+        height: 100%;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .main_product .contents .content .single .error {
+        width: 100%;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .main_product .contents .content .single .error img {
+        width: 100%;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_condition .main_product .contents .z-index {
+        display: block;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_procedure {
+        width: 100%;
+        float: left;
+        padding: 70px 0;
+        background: #f5fcef;
+        z-index: 1;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_procedure .title {
+        margin-bottom: 50px;
+        text-align: center;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_procedure .title .lotu {
+        color: #7AC041;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_procedure .title .lotu::before {
+        background: #7AC041;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_procedure .title h2 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 44px;
+        color: #58595B;
+        margin-top: 15px;
+        margin-bottom: 35px;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_procedure .title h2 a {
+        text-decoration: none;
+        color: #F2C94C;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_procedure .procedure {
+        width: 100%;
+        float: left;
+        padding: 0 100px;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .item_preparation {
+        width: 100%;
+        float: left;
+        margin-bottom: 25px;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .item_preparation .image {
+        width: 50%;
+        float: left;
+        overflow: hidden;
+        cursor: pointer;
+        border-radius: 10px 80px 80px 10px;
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .item_preparation .image img {
+        width: 100%;
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+        -webkit-filter: drop-shadow(0px 4px 11px rgba(0, 0, 0, 0.15));
+                filter: drop-shadow(0px 4px 11px rgba(0, 0, 0, 0.15));
+      }
+      .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .item_preparation .image img:hover {
+        -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .item_preparation .text {
+        position: relative;
+        width: 50%;
+        float: right;
+        padding-top: 45px;
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .item_preparation .text::before {
+        position: absolute;
+        content: "";
+        top: 50px;
+        left: 0;
+        width: 1px;
+        height: 180px;
+        z-index: 0;
+        background-color: #7AC041;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .item_preparation .text .num {
+        position: absolute;
+        left: -45px;
+        top: 35px;
+        width: 90px;
+        height: 90px;
+        background: #FFFFFF;
+        -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+                box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 50px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        cursor: pointer;
+        padding: 8px;
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+        z-index: 1;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .item_preparation .text .num span {
+        border-radius: 50px;
+        border: 1px solid #7AC041;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 150.4%;
+        color: #58595B;
+        width: 100%;
+        height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .item_preparation .text h3 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 150.4%;
+        color: #4F4F4F;
+        cursor: pointer;
+        padding-left: 100px;
+        padding-bottom: 7px;
+        border-bottom: 2px dashed #7AC041;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .item_preparation .text p {
+        font-family: SVN-Poppins-light;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 24px;
+        cursor: pointer;
+        color: #4F4F4F;
+        padding-left: 100px;
+        margin-top: 15px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .item_preparation:last-child .text::before {
+        display: none;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .item_preparation:hover .text h3 {
+        border-bottom: 1px solid #7AC041;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .item_preparation:hover .text .num span {
+        background: #7AC041;
+        color: #FFFFFF;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .even .image {
+        float: right;
+        border-radius: 80px 10px 10px 80px;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .even .text {
+        float: left;
+        text-align: right;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .even .text::before {
+        left: auto;
+        right: 0;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .even .text .num {
+        left: auto;
+        right: -45px;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .even .text h3 {
+        padding-left: 0;
+        padding-right: 100px;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .even .text p {
+        padding-left: 0;
+        padding-right: 100px;
+      }
+
+
+@media (max-width: 1200px) {
+  .site45_intr_col12_lotus .item_listbon .content .left {
+    padding-right: 25px;
+  }
+}
+@media (max-width: 1199px) {
+    .site45_html_col0_dichvugoldenvisa .item_program .product .top_blue {
+      width: 100%;
+      margin-top: -117px;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_program .product .top_wite::after {
+      right: 0;
+      bottom: 0;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_program .product .top_blue::before {
+      bottom: -35%;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_program .product .bott_blue {
+      display: block;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_program .product .bott_blue .hex:nth-child(1) {
+      margin: 0 42%;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_program .product .bott_blue .hex:nth-child(2) {
+      margin-right: 325px;
+      margin-left: 139px;
+      margin-top: -115px;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_program .product .bott_blue .hex:nth-child(3) {
+      margin-top: -115px;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_program .product .bott_wite {
+      display: block;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_program .product .bott_wite .hex:nth-child(1) {
+      margin: 0px 41%;
+      margin-top: -114px;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_program .product .bott_wite .hex:nth-child(2) {
+      margin: 0px 10%;
+      margin-top: -114px;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_condition .item_label_tt {
+      width: 100%;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_procedure .procedure {
+      padding: 0;
+    }
+  }
+@media (max-width: 1000px) {
+    .site45_form_col0_dangkytuvan .content .left {
+      width: 70%;
+      padding-right: 50px;
+    }
+    .site45_form_col0_dangkytuvan .content .right {
+      width: 30%;
+    }
+    .site45_intr_col12_lotus .item_listbon .content {
+        display: -ms-grid;
+        display: grid;
+      }
+      .site45_intr_col12_lotus .item_listbon .content .left {
+        width: 100%;
+        padding-right: 0;
+      }
+      .site45_intr_col12_lotus .item_listbon .content .right {
+        padding-top: 50px;
+        margin: auto;
+        height: auto;
+        float: left;
+      }
+  }
+  @media (max-width: 991px) {
+    .site45_html_col0_dichvugoldenvisa {
+      padding: 50px 0;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_program {
+      margin-bottom: 0;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_program .product .top_wite {
+      display: -ms-grid;
+      display: grid;
+      float: left;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_program .product .top_wite .hex {
+      margin-bottom: 25px;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_program .product .top_blue {
+      display: -ms-grid;
+      display: grid;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_program .product .top_blue .hex {
+      margin-bottom: 25px;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_program .product .bott_blue {
+      display: -ms-grid;
+      display: grid;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin: 0;
+      width: 100%;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_program .product .bott_blue .hex:nth-child(1), .site45_html_col0_dichvugoldenvisa .item_program .product .bott_blue .hex:nth-child(2), .site45_html_col0_dichvugoldenvisa .item_program .product .bott_blue .hex:nth-child(3) {
+      margin: 0;
+      margin-bottom: 25px;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_program .product .bott_wite {
+      display: -ms-grid;
+      display: grid;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin: 0;
+      width: 100%;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_program .product .bott_wite .hex:nth-child(1), .site45_html_col0_dichvugoldenvisa .item_program .product .bott_wite .hex:nth-child(2) {
+      margin: 0;
+      margin-bottom: 25px;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_condition .item_label_tt .continue {
+      display: block;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_condition .item_label_tt .back {
+      display: block;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_condition .item_label_tt .van-tabs {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_condition .item_label_tt .van-tabs label {
+      display: none;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_condition .item_label_tt .van-tabs .active {
+      text-align: center;
+      display: block;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_condition .item_label_tt .van-tabs .active a {
+      display: none;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_condition .main_product .contents .content .single .left {
+      width: 100%;
+      padding: 0;
+      margin-bottom: 50px;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_condition .main_product .contents .content .single .right {
+      width: 100%;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_procedure .procedure {
+      padding-left: 50px;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .item_preparation .image {
+      width: 100%;
+      border-radius: 0;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .item_preparation .image img {
+      margin-left: 100px;
+      width: -webkit-fit-content;
+      width: -moz-fit-content;
+      width: fit-content;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .item_preparation .text {
+      width: 100%;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .item_preparation .text::before {
+      top: 120px;
+      height: 270px;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .even .image {
+      float: left;
+      border-radius: 0;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .even .text {
+      text-align: left;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .even .text::before {
+      left: 0;
+      right: auto;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .even .text .num {
+      left: -45px;
+      right: auto;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .even .text h3 {
+      padding-left: 100px;
+      padding-right: 0;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .even .text p {
+      padding-left: 100px;
+      padding-right: 0;
+    }
+  }
+@media screen and (max-width: 768px) {
+    .site45_form_col0_dangkytuvan .content .left {
+      width: 100%;
+      padding: 35px 0;
+    }
+    .site45_form_col0_dangkytuvan .content .right {
+      display: none;
+    }
+    .site45_intr_col12_lotus .item_listbon .content .right {
+        width: 500px;
+    }
+    .site45_intr_col12_lotus .item_listbon .content .right .item_slide .slick-next {
+        width: 50px;
+        height: 50px;
+        top: 94.8%;
+    }
+    .site45_intr_col12_lotus .item_listbon .content .right .item_slide .slick-next::before {
+        width: 11px;
+        height: 11px;
+        top: 20px;
+        right: 21px;
+        }
+    .site45_intr_col12_lotus .item_listbon .content .right .item_slide .slick-prev {
+        width: 50px;
+        height: 50px;
+        top: 94.8%;
+        left: 80%;
+    }
+    .site45_intr_col12_lotus .item_listbon .content .right .item_slide .slick-prev::before {
+        width: 11px;
+        height: 11px;
+        top: 20px;
+        left: 21px;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .item_preparation .text h3 {
+        padding-left: 70px;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .item_preparation .text p {
+        padding-left: 70px;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .item_preparation .image img {
+        margin-left: 70px;
+      }
+}
+  @media screen and (max-width: 576px) {
+    .site45_form_col0_dangkytuvan .content {
+      padding-left: 15px;
+    }
+    .site45_form_col0_dangkytuvan .content .left form input,
+  .site45_form_col0_dangkytuvan .content .left form textarea {
+      font-size: 17px;
+    }
+    .site45_form_col0_dangkytuvan .content .left form input::-webkit-input-placeholder, .site45_form_col0_dangkytuvan .content .left form textarea::-webkit-input-placeholder {
+      font-size: 17px;
+    }
+    .site45_form_col0_dangkytuvan .content .left form input::-moz-placeholder, .site45_form_col0_dangkytuvan .content .left form textarea::-moz-placeholder {
+      font-size: 17px;
+    }
+    .site45_form_col0_dangkytuvan .content .left form input:-ms-input-placeholder, .site45_form_col0_dangkytuvan .content .left form textarea:-ms-input-placeholder {
+      font-size: 17px;
+    }
+    .site45_form_col0_dangkytuvan .content .left form input::-ms-input-placeholder, .site45_form_col0_dangkytuvan .content .left form textarea::-ms-input-placeholder {
+      font-size: 17px;
+    }
+    .site45_form_col0_dangkytuvan .content .left form input::placeholder,
+  .site45_form_col0_dangkytuvan .content .left form textarea::placeholder {
+      font-size: 17px;
+    }
+    .site45_form_col0_dangkytuvan .content .left form select {
+      font-size: 17px;
+    }
+    .site45_intr_col12_lotus .item_listbon .content .right {
+        width: 450px;
+      }
+      .site45_intr_col12_lotus .item_listbon .content .right .item_slide .slick-next {
+        top: 94.3%;
+      }
+      .site45_intr_col12_lotus .item_listbon .content .right .item_slide .slick-prev {
+        top: 94.3%;
+        left: 78%;
+      }
+  }
+  @media screen and (max-width: 478px) {
+    .site45_intr_col12_lotus .item_listbon .content .right {
+      width: 400px;
+    }
+    .site45_intr_col12_lotus .item_listbon .content .right .item_slide .slick-next {
+      width: 40px;
+      height: 40px;
+      top: 94.6%;
+    }
+    .site45_intr_col12_lotus .item_listbon .content .right .item_slide .slick-next::before {
+      width: 9px;
+      height: 9px;
+      top: 16px;
+      right: 16px;
+    }
+    .site45_intr_col12_lotus .item_listbon .content .right .item_slide .slick-prev {
+      width: 40px;
+      height: 40px;
+      top: 94.6%;
+      left: 80%;
+    }
+    .site45_intr_col12_lotus .item_listbon .content .right .item_slide .slick-prev::before {
+      width: 9px;
+      height: 9px;
+      top: 16px;
+      left: 18px;
+    }
+  }
+  @media screen and (max-width: 460px) {
+    .site45_form_col0_dangkytuvan .content .left form input,
+  .site45_form_col0_dangkytuvan .content .left form textarea {
+      font-size: 16px;
+    }
+    .site45_form_col0_dangkytuvan .content .left form input::-webkit-input-placeholder, .site45_form_col0_dangkytuvan .content .left form textarea::-webkit-input-placeholder {
+      font-size: 16px;
+    }
+    .site45_form_col0_dangkytuvan .content .left form input::-moz-placeholder, .site45_form_col0_dangkytuvan .content .left form textarea::-moz-placeholder {
+      font-size: 16px;
+    }
+    .site45_form_col0_dangkytuvan .content .left form input:-ms-input-placeholder, .site45_form_col0_dangkytuvan .content .left form textarea:-ms-input-placeholder {
+      font-size: 16px;
+    }
+    .site45_form_col0_dangkytuvan .content .left form input::-ms-input-placeholder, .site45_form_col0_dangkytuvan .content .left form textarea::-ms-input-placeholder {
+      font-size: 16px;
+    }
+    .site45_form_col0_dangkytuvan .content .left form input::placeholder,
+  .site45_form_col0_dangkytuvan .content .left form textarea::placeholder {
+      font-size: 16px;
+    }
+    .site45_form_col0_dangkytuvan .content .left form select {
+      font-size: 16px;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .item_preparation .text .num {
+        width: 70px;
+        height: 70px;
+        left: -35px;
+        top: 40px;
+      }
+      .site45_html_col0_dichvugoldenvisa .item_procedure .procedure .item_preparation .text::before {
+        top: 110px;
+        height: 300px;
+      }
+  }
+  @media screen and (max-width: 430px) {
+    .site45_html_col0_dichvugoldenvisa .item_condition .item_label_tt .van-tabs {
+      padding: 0 35px;
+      overflow: hidden;
+      border-radius: 10px 40px 40px 10px;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_condition .item_label_tt .van-tabs label::before {
+      left: -40px;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_condition .item_label_tt .van-tabs label::after {
+      left: -40px;
+    }
+  }
+  @media screen and (max-width: 415px) {
+    .site45_intr_col12_lotus .item_listbon .content .right {
+      width: 350px;
+    }
+    .site45_intr_col12_lotus .item_listbon .content .right .item_slide .slick-next {
+      top: 93.8%;
+    }
+    .site45_intr_col12_lotus .item_listbon .content .right .item_slide .slick-prev {
+      top: 93.8%;
+      left: 78%;
+    }
+  }
+  @media screen and (max-width: 372px) {
+    .site45_html_col0_dichvugoldenvisa .item_condition .item_label_tt .van-tabs label::before {
+      top: 8px;
+    }
+    .site45_html_col0_dichvugoldenvisa .item_condition .item_label_tt .van-tabs label::after {
+      top: 8px;
+    }
+  }
+  @media screen and (max-width: 365px) {
+    .site45_intr_col12_lotus .item_listbon .content .right {
+      width: 300px;
+    }
+    .site45_intr_col12_lotus .item_listbon .content .right .item_slide .slick-next {
+      top: 92.8%;
+    }
+    .site45_intr_col12_lotus .item_listbon .content .right .item_slide .slick-prev {
+      top: 92.8%;
+      left: 74%;
+    }
+  }

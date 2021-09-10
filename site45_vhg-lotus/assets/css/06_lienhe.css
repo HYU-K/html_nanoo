@@ -1,0 +1,206 @@
+.site45_bann_col0_ggmap {
+    overflow: hidden;
+    width: 100%;
+    height: 616px;
+  }
+  
+  .site45_breadcrumb_col0_lotus {
+    padding: 25px 0;
+    }
+    .site45_breadcrumb_col0_lotus a {
+    text-decoration: none;
+    font-family: SVN-Poppins-light;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 150%;
+    color: #828282;
+    }
+    .site45_breadcrumb_col0_lotus a:first-child {
+    position: relative;
+    }
+    .site45_breadcrumb_col0_lotus a:first-child::before {
+    position: absolute;
+    content: "›";
+    top: -1px;
+    right: -10px;
+    color: #828282;
+    }
+    .site45_breadcrumb_col0_lotus a:last-child {
+    color: #7AC041;
+    margin-left: 10px;
+    }
+    .site45_breadcrumb_col0_lotus a:hover {
+    color: #7AC041;
+    }
+    .site45_form_col12_guiyclienhe {
+        width: 100%;
+        overflow: hidden;
+        background: #FFFFFF;
+        font-family: Roboto;
+        font-style: normal;
+        padding-top: 25px;
+      }
+      .site45_form_col12_guiyclienhe .form {
+        width: 769px;
+        height: auto;
+        margin: auto;
+      }
+      .site45_form_col12_guiyclienhe .form .title {
+        margin-bottom: 50px;
+        text-align: center;
+      }
+      .site45_form_col12_guiyclienhe .form .title .lotu {
+        color: #7AC041;
+      }
+      .site45_form_col12_guiyclienhe .form .title .lotu::before {
+        background: #7AC041;
+      }
+      .site45_form_col12_guiyclienhe .form .title h2 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 44px;
+        color: #58595B;
+        margin-top: 15px;
+        margin-bottom: 35px;
+      }
+      .site45_form_col12_guiyclienhe .form .title p {
+        font-family: SVN-Poppins-light;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 24px;
+        text-align: center;
+        color: #4B4B4B;
+      }
+      .site45_form_col12_guiyclienhe .form form input,
+      .site45_form_col12_guiyclienhe .form form textarea {
+        width: 100%;
+        padding: 7px;
+        outline: 0;
+        border: 0;
+        border-bottom: 1px solid #E2E2E2;
+        margin-bottom: 28px;
+        font-family: SVN-Poppins-light;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        color: #000000;
+      }
+      .site45_form_col12_guiyclienhe .form form input::-webkit-input-placeholder, .site45_form_col12_guiyclienhe .form form textarea::-webkit-input-placeholder {
+        font-family: SVN-Poppins-light;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #C4C4C4;
+      }
+      .site45_form_col12_guiyclienhe .form form input::-moz-placeholder, .site45_form_col12_guiyclienhe .form form textarea::-moz-placeholder {
+        font-family: SVN-Poppins-light;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #C4C4C4;
+      }
+      .site45_form_col12_guiyclienhe .form form input:-ms-input-placeholder, .site45_form_col12_guiyclienhe .form form textarea:-ms-input-placeholder {
+        font-family: SVN-Poppins-light;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #C4C4C4;
+      }
+      .site45_form_col12_guiyclienhe .form form input::-ms-input-placeholder, .site45_form_col12_guiyclienhe .form form textarea::-ms-input-placeholder {
+        font-family: SVN-Poppins-light;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #C4C4C4;
+      }
+      .site45_form_col12_guiyclienhe .form form input::placeholder,
+      .site45_form_col12_guiyclienhe .form form textarea::placeholder {
+        font-family: SVN-Poppins-light;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #C4C4C4;
+      }
+      .site45_form_col12_guiyclienhe .form form input:nth-child(2),
+      .site45_form_col12_guiyclienhe .form form input:nth-child(3) {
+        width: 48%;
+      }
+      .site45_form_col12_guiyclienhe .form form input:nth-child(3) {
+        float: right;
+      }
+      .site45_form_col12_guiyclienhe .form form textarea {
+        resize: none;
+        padding-bottom: 94px;
+        margin-bottom: 30px;
+      }
+      .site45_form_col12_guiyclienhe .form form .gui {
+        width: 100%;
+        text-align: center;
+      }
+      .site45_form_col12_guiyclienhe .form form .gui button {
+        width: 647px;
+        height: 55px;
+        font-family: SVN-Poppins-Bold;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 21px;
+        color: #FFFFFF;
+        background: #7AC041;
+        border-radius: 42px;
+        text-align: center;
+        margin-bottom: 82px;
+      }
+      .site45_form_col12_guiyclienhe .form form .gui button img {
+        padding-left: 10px;
+      }
+
+
+
+
+    @media (max-width: 1200px) {
+        .site45_bann_col0_ggmap {
+          height: 450px;
+        }
+      }
+      @media (max-width: 991px) {
+        .site45_form_col12_guiyclienhe .form {
+          width: 100%;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        .site45_bann_col0_ggmap {
+          height: 350px;
+        }
+
+        .site45_form_col12_guiyclienhe .form .title h2 {
+            margin-bottom: 15px;
+          }
+          .site45_form_col12_guiyclienhe .form form input:nth-child(2),
+        .site45_form_col12_guiyclienhe .form form input:nth-child(3) {
+            width: 100%;
+          }
+          .site45_form_col12_guiyclienhe .form form input:nth-child(3) {
+            float: left;
+          }
+          .site45_form_col12_guiyclienhe .form form .gui button {
+            width: 100%;
+          }
+      }
+      @media screen and (max-width: 576px) {
+        .site45_bann_col0_ggmap {
+          height: 250px;
+        }
+      }
+      @media screen and (max-width: 355px) {
+        .site45_bann_col0_ggmap {
+          height: 180px;
+        }
+      }
