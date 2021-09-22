@@ -157,7 +157,21 @@ $(document).ready(function () {
 
 }); // jQuery load
 
+$(document).ready(function () {
 
+	$('.item_new_slide').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: true,
+		dots: true,
+		arrows: false,
+		infinite: true,
+		speed: 500,
+		fade: true,
+		cssEase: 'linear'
+	});
+
+}); // jQuery load
 
 $(document).ready(function () {
 	$('#slide_Component').slick({
@@ -201,18 +215,6 @@ $(document).ready(function () {
 		autoplay: true,
 		dots: false,
 		arrows: true,
-		infinite: true,
-		speed: 500,
-		fade: true,
-		cssEase: 'linear'
-	});
-
-	$('.item_new_slide').slick({
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		autoplay: true,
-		dots: true,
-		arrows: false,
 		infinite: true,
 		speed: 500,
 		fade: true,
