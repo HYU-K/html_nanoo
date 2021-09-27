@@ -1,0 +1,46 @@
+.butt {
+    font-family: SVN-Poppins-Light;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 17px;
+    border-radius: 32px;
+    transition: all 0.5s;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    &_lienhe {
+        width: 150px;
+        height: 45px;
+        box-sizing: border-box;
+        background: linear-gradient(90deg, #D28933 0%, #F8D658 50.52%, #D28933 100%);
+        box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+        border-radius: 100px;
+        z-index: 2;
+        transform-style: preserve-3d;
+        color: #FFFFFF;
+    }
+
+
+    &_dk {
+        width: 123px;
+        height: 47px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.18);
+        border-radius: 100px;
+        z-index: 2;
+        text-transform: uppercase;
+        color: #D09A2D;
+    }
+
+
+
+    &:hover {
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+        // transform: scale(1.1);
+        transition: 0.5s;
+    }
+}
