@@ -21,6 +21,7 @@
             }
 
             a {
+                text-decoration: none;
                 font-family: SVN-Poppins-Light;
                 font-style: normal;
                 font-weight: normal;
@@ -112,7 +113,7 @@
     .bot_foot {
         background: #625231;
         padding: 10px 0;
-        
+
         .bott {
             display: flex;
             align-items: center;
@@ -218,19 +219,13 @@
 
 @media (max-width: 1199px) {}
 
-@media (max-width: 991px) {
+@media (max-width: 991px) {}
 
-}
-
-@media screen and (max-width: 767px) {
-
-}
+@media screen and (max-width: 767px) {}
 
 @media screen and (max-width: 575px) {}
 
-@media screen and (max-width: 460px) {
-
-}
+@media screen and (max-width: 460px) {}
 
 @media screen and (max-width: 400px) {}
 
