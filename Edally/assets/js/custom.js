@@ -19,6 +19,10 @@ $(document).ready(function () {
 			$('.head_Edally .container .header').removeClass('croll');
 		}
 	});
+
+	$(function () {
+		new WOW().init();
+	})
 	
 
 	$(function () {

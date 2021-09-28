@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .bann_senvang {
   width: 100%;
   overflow: hidden;
@@ -77,9 +78,16 @@
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 50px;
+  position: relative;
+}
+.home-senvang .item-gioithieu::before {
+  position: absolute;
+  content: url("../../assets/img/bf4.png");
+  bottom: -75px;
+  left: 22%;
 }
 .home-senvang .item-gioithieu .left {
-  width: 48%;
+  width: 47%;
   padding-right: 50px;
 }
 .home-senvang .item-gioithieu .left .product {
@@ -115,18 +123,22 @@
   text-decoration: none;
 }
 .home-senvang .item-gioithieu .right {
-  width: 52%;
+  width: 53%;
 }
 .home-senvang .item-gioithieu .right .image {
   position: relative;
   z-index: 1;
+  width: 100%;
 }
 .home-senvang .item-gioithieu .right .image::before {
   position: absolute;
   content: url("../../assets/img/bf.png");
-  bottom: 0;
-  left: 100px;
+  bottom: -50px;
+  left: 90px;
   z-index: -1;
+}
+.home-senvang .item-gioithieu .right .image img {
+  width: 100%;
 }
 .home-senvang .item-dichvu {
   padding: 35px 0;
@@ -176,17 +188,23 @@
   margin: 120px 0 0 0;
   z-index: 3;
   position: relative;
+  -webkit-box-shadow: 0px 10px 21px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 10px 21px rgba(0, 0, 0, 0.25);
 }
 .home-senvang .item-dichvu .new_slide .draggable .slick-track .slick-center .card_img {
   width: 60%;
-  padding: 10px;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 10px;
 }
-.home-senvang .item-dichvu .new_slide .draggable .slick-track .slick-center .card_img img {
+.home-senvang .item-dichvu .new_slide .draggable .slick-track .slick-center .card_img .img {
   width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   border-radius: 20px;
 }
 .home-senvang .item-dichvu .new_slide .draggable .slick-track .slick-center .card_img h3 {
@@ -206,8 +224,6 @@
 .home-senvang .item-dichvu .new_slide .card_new {
   overflow: hidden;
   background: #FFFFFF;
-  -webkit-box-shadow: 0px 10px 21px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 10px 21px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   height: 340px;
   margin-top: 70px;
@@ -249,6 +265,10 @@
   color: #4F4F4F;
   text-align: center;
   margin: 20px 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .home-senvang .item-dichvu .new_slide .card_new .card_content p {
   font-family: SVN-Poppins-Regular;
@@ -257,7 +277,11 @@
   line-height: 24px;
   text-align: center;
   color: #4F4F4F;
-  padding-bottom: 15px;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 15px;
 }
 .home-senvang .item-dichvu .new_slide .card_new .card_content a {
   text-decoration: none;
@@ -365,6 +389,7 @@
   position: absolute;
   top: 87px;
   left: 0;
+  padding: 0 15px;
   z-index: 1;
 }
 .home-senvang .item_thuvien .item-list-image .top {
@@ -453,7 +478,7 @@
 .home-senvang .item-ykienkhachhang {
   width: 100%;
   background-image: url("../../assets/img/bann-ykien.png");
-  background-size: cover;
+  background-size: 100% 100%;
   padding: 50px 0;
   padding-bottom: 100px;
   position: relative;
@@ -489,6 +514,7 @@
   color: #FFFFFF;
   margin-bottom: 36px;
   position: relative;
+  text-align: center;
 }
 .home-senvang .item-ykienkhachhang .title h2::before {
   position: absolute;
@@ -521,17 +547,24 @@
   width: 60%;
   padding-left: 85px;
 }
-.home-senvang .item-ykienkhachhang .slide-item-y-kien .item-list-y-kien .item-product p {
+.home-senvang .item-ykienkhachhang .slide-item-y-kien .item-list-y-kien .item-product .digo {
+  position: relative;
+  margin-bottom: 40px;
+}
+.home-senvang .item-ykienkhachhang .slide-item-y-kien .item-list-y-kien .item-product .digo p {
   font-family: SVN-Poppins-Regular;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
   color: #FFFFFF;
-  position: relative;
-  margin-bottom: 40px;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
-.home-senvang .item-ykienkhachhang .slide-item-y-kien .item-list-y-kien .item-product p span {
+.home-senvang .item-ykienkhachhang .slide-item-y-kien .item-list-y-kien .item-product .digo::before {
   position: absolute;
+  content: "“";
   top: -65px;
   left: -70px;
   font-family: Varela;
@@ -591,6 +624,10 @@
   background-size: cover;
   background-color: #333333;
 }
+.lienhe .form {
+  width: 970px;
+  margin: auto;
+}
 .lienhe .form .title {
   width: 285px;
   height: 79px;
@@ -632,8 +669,7 @@
   margin-bottom: 35px;
 }
 .lienhe .form form {
-  width: 970px;
-  margin: auto;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -658,8 +694,7 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 32px;
-  color: #FFFFFF;
-  opacity: 0.4;
+  color: #E6E6E6;
   margin-bottom: 34px;
   background: rgba(255, 255, 255, 0.1);
   mix-blend-mode: normal;
@@ -720,8 +755,7 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 32px;
-  color: #FFFFFF;
-  opacity: 0.4;
+  color: #E6E6E6;
   background: rgba(255, 255, 255, 0.1);
   mix-blend-mode: normal;
   border-radius: 10px;
@@ -769,4 +803,382 @@
 .lienhe .form form .dangky {
   margin: auto;
   padding-top: 31px;
+}
+
+@media (max-width: 1199px) {
+  .home-senvang::after {
+    top: 180px;
+  }
+  .home-senvang .item-parameters ul li::before {
+    right: -25px;
+  }
+  .home-senvang .item-gioithieu .right .image::before {
+    left: 0;
+    bottom: -170px;
+  }
+  .home-senvang .item_thuvien .item-list-image .top .item-image:nth-child(1) {
+    width: 222px;
+    height: 226px;
+  }
+  .home-senvang .item_thuvien .item-list-image .top .item-image:nth-child(2) {
+    width: 350px;
+    height: 345px;
+  }
+  .home-senvang .item_thuvien .item-list-image .bott .item-image:nth-child(1) {
+    width: 222px;
+    height: 226px;
+  }
+  .home-senvang .item_thuvien .item-list-image .bott .item-image:nth-child(2) {
+    width: 340px;
+    height: 345px;
+  }
+  .home-senvang .item_thuvien .item-list-image .bott .item-image:nth-child(3) {
+    width: 350px;
+    height: 345px;
+  }
+  .home-senvang .item-ykienkhachhang .slide-item-y-kien .item-list-y-kien .item-product ul li {
+    width: 84px;
+    height: 84px;
+  }
+}
+@media (max-width: 1034px) {
+  .lienhe .form {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .home-senvang::after {
+    top: 230px;
+  }
+  .home-senvang .item-parameters ul {
+    margin: 0 -15px;
+  }
+  .home-senvang .item-parameters ul li {
+    padding: 0 15px;
+  }
+  .home-senvang .item-parameters ul li::before {
+    right: 0;
+  }
+  .home-senvang .item-gioithieu .right .image::before {
+    left: -66px;
+    bottom: -190px;
+  }
+  .home-senvang .item-dichvu .new_slide .slick-prev {
+    left: 4.1%;
+  }
+  .home-senvang .item-dichvu .new_slide .slick-next {
+    right: 4.8%;
+  }
+  .home-senvang .item_thuvien {
+    height: 720px;
+  }
+  .home-senvang .item_thuvien .title {
+    padding-top: 129px;
+  }
+  .home-senvang .item_thuvien .item-list-image .top .item-image:nth-child(1) {
+    width: 170px;
+    height: 156px;
+  }
+  .home-senvang .item_thuvien .item-list-image .top .item-image:nth-child(2) {
+    width: 270px;
+    height: 265px;
+  }
+  .home-senvang .item_thuvien .item-list-image .bott .item-image:nth-child(1) {
+    width: 170px;
+    height: 156px;
+  }
+  .home-senvang .item_thuvien .item-list-image .bott .item-image:nth-child(2) {
+    width: 255px;
+    height: 265px;
+  }
+  .home-senvang .item_thuvien .item-list-image .bott .item-image:nth-child(3) {
+    width: 270px;
+    height: 265px;
+  }
+  .home-senvang .item-ykienkhachhang .slide-item-y-kien .item-list-y-kien {
+    padding: 25px 0;
+  }
+  .home-senvang .item-ykienkhachhang .slide-item-y-kien .item-list-y-kien .main-avt {
+    width: 274px;
+    height: 274px;
+  }
+  .home-senvang .item-ykienkhachhang .slide-item-y-kien .item-list-y-kien .item-product {
+    padding-left: 60px;
+  }
+  .home-senvang .item-ykienkhachhang .slide-item-y-kien .item-list-y-kien .item-product ul li {
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .home-senvang::after {
+    top: 600px;
+  }
+  .home-senvang .item-gioithieu::before {
+    left: 55px;
+  }
+  .home-senvang .item-gioithieu .left {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 50px;
+  }
+  .home-senvang .item-gioithieu .right {
+    width: 100%;
+  }
+  .home-senvang .item-gioithieu .right .image::before {
+    left: 90px;
+    bottom: 0;
+  }
+  .home-senvang .item-dichvu .new_slide .draggable .slick-track .slick-center {
+    height: 200px;
+  }
+  .home-senvang .item-dichvu .new_slide .card_new {
+    height: 300px;
+  }
+  .home-senvang .item_thuvien .item-list-image .top .item-image:nth-child(1) {
+    width: 19%;
+    height: 140px;
+    border-radius: 0px 40px 0px 40px;
+  }
+  .home-senvang .item_thuvien .item-list-image .top .item-image:nth-child(2) {
+    width: 38%;
+    height: 250px;
+  }
+  .home-senvang .item_thuvien .item-list-image .bott .item-image:nth-child(1) {
+    width: 19%;
+    height: 140px;
+    border-radius: 0px 40px 0px 40px;
+  }
+  .home-senvang .item_thuvien .item-list-image .bott .item-image:nth-child(2) {
+    width: 38%;
+    height: 250px;
+  }
+  .home-senvang .item_thuvien .item-list-image .bott .item-image:nth-child(3) {
+    width: 38%;
+    height: 250px;
+  }
+
+  .lienhe .form form .left {
+    width: 100%;
+    padding-right: 0;
+  }
+  .lienhe .form form .left input:last-child {
+    margin-bottom: 34px;
+  }
+  .lienhe .form form textarea {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 715px) {
+  .home-senvang .item-ykienkhachhang .slide-item-y-kien .item-list-y-kien .main-avt {
+    width: 234px;
+    height: 234px;
+  }
+  .home-senvang .item-ykienkhachhang .slide-item-y-kien .item-list-y-kien .item-product .digo::before {
+    top: -56px;
+    left: -63px;
+    font-size: 125px;
+  }
+}
+@media screen and (max-width: 615px) {
+  .home-senvang .item-ykienkhachhang .slide-item-y-kien .item-list-y-kien .main-avt {
+    width: 184px;
+    height: 184px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .home-senvang .item-gioithieu .right .image::before {
+    bottom: -90px;
+  }
+  .home-senvang .item-dichvu .new_slide .draggable .slick-track .slick-center {
+    height: 170px;
+  }
+  .home-senvang .item-dichvu .new_slide .card_new {
+    height: 275px;
+  }
+  .home-senvang .item-dichvu .new_slide .card_new .card_content h4 {
+    margin: 10px 0;
+  }
+  .home-senvang .item-dichvu .new_slide .card_new .card_content p {
+    -webkit-line-clamp: 3;
+    margin-bottom: 10px;
+  }
+  .home-senvang .item_thuvien {
+    height: 585px;
+  }
+  .home-senvang .item_thuvien .title {
+    padding-top: 80px;
+  }
+  .home-senvang .item_thuvien .item-list-image .top .item-image:nth-child(1) {
+    height: 100px;
+    border-radius: 0px 30px 0px 30px;
+  }
+  .home-senvang .item_thuvien .item-list-image .top .item-image:nth-child(2) {
+    height: 200px;
+  }
+  .home-senvang .item_thuvien .item-list-image .bott .item-image:nth-child(1) {
+    height: 100px;
+    border-radius: 0px 30px 0px 30px;
+  }
+  .home-senvang .item_thuvien .item-list-image .bott .item-image:nth-child(2) {
+    height: 200px;
+  }
+  .home-senvang .item_thuvien .item-list-image .bott .item-image:nth-child(3) {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 542px) {
+  .home-senvang .item-gioithieu .right .image::before {
+    bottom: -90px;
+  }
+  .home-senvang .item-dichvu .new_slide {
+    margin-bottom: 50px;
+  }
+  .home-senvang .item-dichvu .new_slide .draggable .slick-track .slick-center {
+    margin: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    height: 300px;
+  }
+  .home-senvang .item-dichvu .new_slide .draggable .slick-track .slick-center .card_img {
+    width: 60%;
+  }
+  .home-senvang .item-dichvu .new_slide .draggable .slick-track .slick-center .card_content {
+    width: 40%;
+    margin: 0;
+    padding-right: 10px;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  .home-senvang .item-dichvu .new_slide .card_new {
+    margin: 0;
+  }
+  .home-senvang .item-dichvu .new_slide .slick-dots {
+    bottom: -50px;
+  }
+  .home-senvang .item-dichvu .new_slide .slick-prev {
+    left: 5px;
+  }
+  .home-senvang .item-dichvu .new_slide .slick-next {
+    right: 16px;
+  }
+  .home-senvang .item-ykienkhachhang .title {
+    padding-top: 65px;
+  }
+  .home-senvang .item-ykienkhachhang .slide-item-y-kien .item-list-y-kien {
+    display: -ms-grid;
+    display: grid;
+    padding: 0%;
+  }
+  .home-senvang .item-ykienkhachhang .slide-item-y-kien .item-list-y-kien .main-avt {
+    margin: auto;
+  }
+  .home-senvang .item-ykienkhachhang .slide-item-y-kien .item-list-y-kien .item-product {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 460px) {
+  .home-senvang .item-parameters ul {
+    display: -ms-grid;
+    display: grid;
+  }
+  .home-senvang .item-parameters ul li {
+    margin-bottom: 25px;
+  }
+  .home-senvang .item-parameters ul li:last-child {
+    margin-bottom: 0;
+  }
+  .home-senvang .item-parameters ul li::before {
+    display: none;
+  }
+  .home-senvang .item-gioithieu::before {
+    left: 15px;
+  }
+  .home-senvang .item-gioithieu .right .image::before {
+    bottom: -190px;
+  }
+  .home-senvang .item_thuvien {
+    height: 585px;
+  }
+  .home-senvang .item_thuvien .title {
+    width: 256px;
+  }
+  .home-senvang .item_thuvien .item-list-image {
+    top: 140px;
+  }
+  .home-senvang .item_thuvien .item-list-image .top .item-image:nth-child(1) {
+    height: 70px;
+    border-radius: 0px 30px 0px 30px;
+  }
+  .home-senvang .item_thuvien .item-list-image .top .item-image:nth-child(2) {
+    height: 150px;
+    border-radius: 40px 0px 40px 0px;
+  }
+  .home-senvang .item_thuvien .item-list-image .bott .item-image:nth-child(1) {
+    height: 70px;
+    border-radius: 0px 30px 0px 30px;
+  }
+  .home-senvang .item_thuvien .item-list-image .bott .item-image:nth-child(2) {
+    height: 150px;
+    border-radius: 40px 0px 40px 0px;
+  }
+  .home-senvang .item_thuvien .item-list-image .bott .item-image:nth-child(3) {
+    height: 150px;
+    border-radius: 0px 40px 0px 40px;
+  }
+  .home-senvang .item-ykienkhachhang .title {
+    width: 100%;
+  }
+  .home-senvang .item-ykienkhachhang .title h2::before {
+    left: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .home-senvang .item-dichvu .title {
+    width: 100%;
+  }
+  .home-senvang .item-dichvu .new_slide .draggable .slick-track .slick-center {
+    height: 250px;
+  }
+  .home-senvang .item-dichvu .new_slide .draggable .slick-track .slick-center .card_content .butt_lienhe {
+    width: 120px;
+    height: 36px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .home-senvang .item_thuvien {
+    height: 456px;
+  }
+  .home-senvang .item_thuvien .title {
+    width: 100%;
+  }
+  .home-senvang .item_thuvien .item-list-image {
+    top: 140px;
+  }
+  .home-senvang .item_thuvien .item-list-image .top .item-image:nth-child(1) {
+    height: 50px;
+    border-radius: 0px 15px 0px 15px;
+  }
+  .home-senvang .item_thuvien .item-list-image .top .item-image:nth-child(2) {
+    height: 120px;
+    border-radius: 30px 0px 30px 0px;
+  }
+  .home-senvang .item_thuvien .item-list-image .bott .item-image:nth-child(1) {
+    height: 50px;
+    border-radius: 0px 15px 0px 15px;
+  }
+  .home-senvang .item_thuvien .item-list-image .bott .item-image:nth-child(2) {
+    height: 120px;
+    border-radius: 30px 0px 30px 0px;
+  }
+  .home-senvang .item_thuvien .item-list-image .bott .item-image:nth-child(3) {
+    height: 120px;
+    border-radius: 0px 30px 0px 30px;
+  }
+
+  .lienhe .form .title {
+    width: 100%;
+  }
 }

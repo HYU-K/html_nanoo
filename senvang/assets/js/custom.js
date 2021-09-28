@@ -20,12 +20,48 @@ $(document).ready(function () {
 		}
 	});
 
+	$(function () {
+		new WOW().init();
+	})
+
 	$(".new_slide").slick({
 		centerMode: true,
 		centerPadding: '0',
 		slidesToShow: 3,
 		dots: true,
 		arrows: true,
+		responsive: [{
+			breakpoint: 991,
+			settings: {
+				slidesToShow: 1,
+				centerPadding: '180px',
+			}
+		}, {
+			breakpoint: 700,
+			settings: {
+				slidesToShow: 1,
+				centerPadding: '160px',
+			} 
+		}, {
+			breakpoint: 640,
+			settings: {
+				slidesToShow: 1,
+				centerPadding: '150px',
+			}
+		}, {
+			breakpoint: 600,
+			settings: {
+				slidesToShow: 1,
+				centerPadding: '135px',
+			}
+		}, {
+			breakpoint: 543,
+			settings: {
+				slidesToShow: 1,
+				centerPadding: '0',
+				centerMode: true,
+			}
+		}]
 	});
 
 	$(".slide-item-y-kien").slick({
