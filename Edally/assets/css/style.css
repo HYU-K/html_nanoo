@@ -746,7 +746,7 @@
   margin-bottom: 22px;
 }
 .footer_Edally .footer_main .footer_item:nth-child(3) .menu-flas ul {
-  list-style: url("../../../assets/img/grid_big.png");
+  list-style: url("../../assets/img/grid_big.png");
   padding-left: 23px;
 }
 .footer_Edally .footer_main .footer_item:nth-child(3) .menu-flas ul li {
@@ -784,7 +784,7 @@
 }
 .footer_Edally .bot_foot p::before {
   position: absolute;
-  content: url("../../../assets/img/copyright-fill.png");
+  content: url("../../assets/img/copyright-fill.png");
   left: -25px;
   top: 15px;
 }

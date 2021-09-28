@@ -82,7 +82,7 @@
                     }
 
                     ul {
-                        list-style: url("../../../assets/img/grid_big.png");
+                        list-style: url("../../assets/img/grid_big.png");
                         padding-left: 23px;
 
                         li {
@@ -128,7 +128,7 @@
 
             &::before {
                 position: absolute;
-                content: url('../../../assets/img/copyright-fill.png');
+                content: url('../../assets/img/copyright-fill.png');
                 left: -25px;
                 top: 15px;
             }
